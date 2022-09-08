@@ -9,7 +9,6 @@
 
 Для начала работы над лабораторной работой необходимо:
 1. Перенести этот репозиторий себе
-2. Ответвиться от ветки **develop/labs** командой `checkout`
-3. Создать свою ветку с названием формата `develop/labs/secondname-firstname-number`, 
-   *например develop/labs/gordina-anna-1*
+2. Создать от ветки `develop/labs` свою новую с названием формата `labs/secondname-firstname-number`, 
+   *например labs/gordina-anna-1*
 
