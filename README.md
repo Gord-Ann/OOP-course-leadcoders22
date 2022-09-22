@@ -10,6 +10,7 @@
 Для начала работы над лабораторной работой необходимо:
 1. Перенести этот репозиторий себе:
 - сделать `fork`, а затем `clone`
+- открыть проект через IDEA: New -> Project from Version Control
 2. Создать от ветки `develop/labs` свою новую с названием формата `labs/secondname-firstname-number`, 
    *например labs/gordina-anna-1*
 
