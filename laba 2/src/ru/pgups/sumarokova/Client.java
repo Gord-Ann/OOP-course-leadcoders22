@@ -2,9 +2,9 @@ package ru.pgups.sumarokova;
 
 public class Client {
 
-    public String name;
-    public int number;
-    public int price;
+    private String name;
+    private int number;
+    private int price;
 
     public Client(String name, int number, int price) {
         this.name = name;

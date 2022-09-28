@@ -1,8 +1,8 @@
 package ru.pgups.sumarokova;
 
 public class Payment {
-    int number;
-    boolean paid;
+    private int number;
+    private boolean paid;
 
     public Payment(int number, boolean paid) {
         this.number = number;

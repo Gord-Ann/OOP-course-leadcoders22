@@ -2,8 +2,8 @@ package ru.pgups.sumarokova;
 
 public class Work {
 
-    public String name;
-    public String day;
+    private String name;
+    private String day;
 
     public Work(String name, String day) {
         this.name = name;
