@@ -40,19 +40,19 @@ public class Car {
     class MainCar {
 
         public static void main(String[] args){
-            Car first_car = new Car("fork lift 1", 17.7, 2000);
-            System.out.println("Car: " + first_car.getName());
-            System.out.println("The car has a speed of " + first_car.getSpeedOfMovement()+ "km/h") ;
-            System.out.println("The machine has a lifting height of " + first_car.getLiftingHeight()+ "cm");
+            Car firstCar = new Car("fork lift 1", 17.7, 2000);
+            System.out.println("Car: " + firstCar.getName());
+            System.out.println("The car has a speed of " + firstCar.getSpeedOfMovement()+ "km/h") ;
+            System.out.println("The machine has a lifting height of " + firstCar.getLiftingHeight()+ "cm");
 
-            first_car.setName("fork lift 2");
-            System.out.println("The car has another name: " + first_car.getName());
+            firstCar.setName("fork lift 2");
+            System.out.println("The car has another name: " + firstCar.getName());
 
-            first_car.setSpeedOfMovement(15.4);
-            System.out.println("The car has a speed of " + first_car.getSpeedOfMovement() + "km/h");
+            firstCar.setSpeedOfMovement(15.4);
+            System.out.println("The car has a speed of " + firstCar.getSpeedOfMovement() + "km/h");
 
-            first_car.setLiftingHeight(2300);
-            System.out.println("The machine has a lifting height of " + first_car.getLiftingHeight() + "cm");
+            firstCar.setLiftingHeight(2300);
+            System.out.println("The machine has a lifting height of " + firstCar.getLiftingHeight() + "cm");
         }
 
     }
