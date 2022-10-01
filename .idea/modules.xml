@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/OOP-course-leadcoders22.iml" filepath="$PROJECT_DIR$/.idea/OOP-course-leadcoders22.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lr2_buzukin/lr2_buzukin.iml" filepath="$PROJECT_DIR$/lr2_buzukin/lr2_buzukin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LR2 BUZUKIN.iml" filepath="$PROJECT_DIR$/.idea/LR2 BUZUKIN.iml" />
     </modules>
   </component>
 </project>
