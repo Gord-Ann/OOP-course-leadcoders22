@@ -4,15 +4,15 @@ package ru.pgups.sumarokova;
 public class Place {
 
     private String name;
-    private int number_ofA;
-    private int number_ofB;
-    private int number_ofC;
+    private int ofSmall;
+    private int ofMedium;
+    private int ofBig;
 
-    public Place (String name, int number_ofA, int number_ofB, int number_ofC){
+    public Place (String name, int ofSmall, int ofMedium, int ofBig){
         this.name = name;
-        this.number_ofA = number_ofA;
-        this.number_ofB = number_ofB;
-        this.number_ofC = number_ofC;
+        this.ofSmall = ofSmall;
+        this.ofMedium = ofMedium;
+        this.ofBig = ofBig;
     }
 
     public String getName() {
@@ -23,50 +23,50 @@ public class Place {
         this.name = name;
     }
 
-    public int getNumber_ofA() {
-        return number_ofA;
+    public int getOfSmall() {
+        return ofSmall;
     }
 
-    public void setNumber_ofA(int number_ofA) {
-        this.number_ofA = number_ofA;
+    public void setOfSmall(int ofSmall) {
+        this.ofSmall = ofSmall;
     }
 
-    public int getNumber_ofB() {
-        return number_ofB;
+    public int getOfMedium() {
+        return ofMedium;
     }
 
-    public void setNumber_ofB(int number_ofB) {
-        this.number_ofB = number_ofB;
+    public void setOfMedium(int ofMedium) {
+        this.ofMedium = ofMedium;
     }
 
-    public int getNumber_ofC() {
-        return number_ofC;
+    public int getOfBig() {
+        return ofBig;
     }
 
-    public void setNumber_ofC(int number_ofC) {
-        this.number_ofC = number_ofC;
+    public void setOfBig(int ofBig) {
+        this.ofBig = ofBig;
     }
 }
 
 class MainPlace {
     public static void main(String[] args){
-        Place ABC = new Place("ABC", 50, 40,30);
-        System.out.println("Building name: " + ABC.getName());
-        System.out.println("Building has " + ABC.getNumber_ofA() + " Box A");
-        System.out.println("Building has " + ABC.getNumber_ofB() + " Box B");
-        System.out.println("Building has " + ABC.getNumber_ofC() + " Box C");
+        Place Moscow = new Place("Moscow", 50, 40,30);
+        System.out.println("Building name: " + Moscow.getName());
+        System.out.println("Building has " + Moscow.getOfSmall() + " Box small");
+        System.out.println("Building has " + Moscow.getOfMedium() + " Box medium");
+        System.out.println("Building has " + Moscow.getOfBig() + " Box big");
 
-        ABC.setName("CBA");
-        System.out.println("Building has another name: " + ABC.getName());
+        Moscow.setName("Moscow1");
+        System.out.println("Building has another name: " + Moscow.getName());
 
-        ABC.setNumber_ofA(48);
-        System.out.println(ABC.getName() + " now has " + ABC.getNumber_ofA() + " Box A");
+        Moscow.setOfSmall(48);
+        System.out.println(Moscow.getName() + " now has " + Moscow.getOfSmall() + " Box small");
 
-        ABC.setNumber_ofB(30);
-        System.out.println(ABC.getName() + " now has " + ABC.getNumber_ofB() + " Box B");
+        Moscow.setOfMedium(30);
+        System.out.println(Moscow.getName() + " now has " + Moscow.getOfMedium() + " Box medium");
 
-        ABC.setNumber_ofC(10);
-        System.out.println(ABC.getName() + " now has " + ABC.getNumber_ofC() + " Box C");
+        Moscow.setOfBig(10);
+        System.out.println(Moscow.getName() + " now has " + Moscow.getOfBig() + " Box big");
     }
 
 

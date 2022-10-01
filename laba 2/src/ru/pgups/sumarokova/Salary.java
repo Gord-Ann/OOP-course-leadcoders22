@@ -38,23 +38,23 @@ public class Salary {
 
 class MainSalary {
      public static void main(String[] args){
-          Salary A = new Salary(2, 4.5, 213);
-          System.out.println("Salary: " + A.getNumber());
-          System.out.println("Hour: " + A.getHour()) ;
-          System.out.println("Rate: " + A.getRate());
-          System.out.println("Result: " + A.getHour()*A.getRate());
+          Salary Anna = new Salary(2, 4.5, 213);
+          System.out.println("Salary: " + Anna.getNumber());
+          System.out.println("Hour: " + Anna.getHour()) ;
+          System.out.println("Rate: " + Anna.getRate());
+          System.out.println("Result: " + Anna.getHour()*Anna.getRate());
 
-          System.out.println("        UPDATE       ");
+          System.out.println("UPDATE");
           //A.setNumber();
-          System.out.println("Salary: " + A.getNumber());
+          System.out.println("Salary: " + Anna.getNumber());
 
-          A.setHour(8.4);
-          System.out.println("Hour: " + A.getHour()) ;
+          Anna.setHour(8.4);
+          System.out.println("Hour: " + Anna.getHour()) ;
 
           //A.setRate(213);
-          System.out.println("Rate: " + A.getRate());
+          System.out.println("Rate: " + Anna.getRate());
 
-          System.out.println("Result: " + A.getHour()*A.getRate());
+          System.out.println("Result: " + Anna.getHour()*Anna.getRate());
      }
 
 

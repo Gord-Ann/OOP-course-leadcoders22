@@ -29,21 +29,21 @@ public class Work {
     class  MainWork {
 
         public static void main(String[] args) {
-            Work A = new Work("number 1", "2/2");
-            System.out.println("Name: " + A.getName());
-            System.out.println("Shift: " + A.getDay() + "days");
+            Work Anna = new Work("Anna", "2/2");
+            System.out.println("Name: " + Anna.getName());
+            System.out.println("Shift: " + Anna.getDay() + "days");
 
-            Work B = new Work("number 1", "3/1");
-            System.out.println("Name: " + A.getName());
-            System.out.println("Shift: " + A.getDay() + "days");
+            Work Vika = new Work("Vika", "3/1");
+            System.out.println("Name: " + Vika.getName());
+            System.out.println("Shift: " + Vika.getDay() + "days");
 
-            System.out.println("    The data has been changed");
+            System.out.println("The data has been changed");
 
-            A.setName("number 22");
-            System.out.println("Name: " + A.getName());
+            Anna.setName("Annya");
+            System.out.println("Name: " + Anna.getName());
 
-            A.setDay("3/2");
-            System.out.println("Shift: " + A.getDay() + "days");
+            Anna.setDay("3/2");
+            System.out.println("Shift: " + Anna.getDay() + "days");
 
 
         }

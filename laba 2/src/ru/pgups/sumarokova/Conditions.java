@@ -39,10 +39,10 @@ public class Conditions {
     class MainConditions{
 public static void main(String[] args){
 
-    Conditions A = new Conditions(13.2, 12.2,10);
-    System.out.println("Temperature: " + A.getTemperature());
-    System.out.println("Humidity: " + A.getHumidity());
-    System.out.println("Lighting: " + A.getLighting());
+    Conditions foFirstClient = new Conditions(13.2, 12.2,10);
+    System.out.println("Temperature: " + foFirstClient.getTemperature());
+    System.out.println("Humidity: " + foFirstClient.getHumidity());
+    System.out.println("Lighting: " + foFirstClient.getLighting());
 }
 }
 
