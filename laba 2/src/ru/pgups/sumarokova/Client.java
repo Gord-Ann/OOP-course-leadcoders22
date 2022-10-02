@@ -39,24 +39,24 @@ public class Client {
 
     class MainClient{
         public static void main(String[] args) {
-            Client Kolya = new Client("Kolay", 1, 4300);
-            System.out.println("Name: " + Kolya.getName());
-            System.out.println("Сontract number: " + Kolya.getNumber());
-            System.out.println("Price: " + Kolya.getPrice());
+            Client kolya = new Client("Kolay", 1, 4300);
+            System.out.println("Name: " + kolya.getName());
+            System.out.println("Сontract number: " + kolya.getNumber());
+            System.out.println("Price: " + kolya.getPrice());
 
             System.out.println(" ");
 
-            Client Anna = new Client("Anna", 2, 13900);
-            System.out.println("Name: " + Anna.getName());
-            System.out.println("Сontract number: " + Anna.getNumber());
-            System.out.println("Price: " + Anna.getPrice());
+            Client anna = new Client("Anna", 2, 13900);
+            System.out.println("Name: " + anna.getName());
+            System.out.println("Сontract number: " + anna.getNumber());
+            System.out.println("Price: " + anna.getPrice());
 
             System.out.println(" ");
 
-            Client Min = new Client("Min", 3, 15770);
-            System.out.println("Name: " + Min.getName());
-            System.out.println("Сontract number: " + Min.getNumber());
-            System.out.println("Price: " + Min.getPrice());
+            Client min = new Client("Min", 3, 15770);
+            System.out.println("Name: " + min.getName());
+            System.out.println("Сontract number: " + min.getNumber());
+            System.out.println("Price: " + min.getPrice());
 
 
 

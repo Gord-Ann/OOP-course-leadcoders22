@@ -27,24 +27,24 @@ public class Payment {
 }
     class MainMain {
         public static void main(String[] args) {
-            Payment Client1 = new Payment(1, true);
-            System.out.println("Number: " + Client1.getNumber());
-            System.out.println("Paid: " + Client1.getPaid());
+            Payment client1 = new Payment(1, true);
+            System.out.println("Number: " + client1.getNumber());
+            System.out.println("Paid: " + client1.getPaid());
 
-            Payment Client2 = new Payment(2, true);
-            System.out.println("Number: " + Client2.getNumber());
-            System.out.println("Paid: " + Client2.getPaid());
+            Payment client2 = new Payment(2, true);
+            System.out.println("Number: " + client2.getNumber());
+            System.out.println("Paid: " + client2.getPaid());
 
-            Payment Client3 = new Payment(3, false);
-            System.out.println("Number: " + Client3.getNumber());
-            System.out.println("Paid: " + Client3.getPaid());
+            Payment client3 = new Payment(3, false);
+            System.out.println("Number: " + client3.getNumber());
+            System.out.println("Paid: " + client3.getPaid());
 
             System.out.println("Change in contract number 3:");
 
-            System.out.println("Number: " + Client3.getNumber());
+            System.out.println("Number: " + client3.getNumber());
 
-            Client3.setPaid(true);
-            System.out.println("Paid: " + Client3.getPaid());
+            client3.setPaid(true);
+            System.out.println("Paid: " + client3.getPaid());
         }
     }
 

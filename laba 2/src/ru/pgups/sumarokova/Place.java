@@ -50,23 +50,23 @@ public class Place {
 
 class MainPlace {
     public static void main(String[] args){
-        Place Moscow = new Place("Moscow", 50, 40,30);
-        System.out.println("Building name: " + Moscow.getName());
-        System.out.println("Building has " + Moscow.getOfSmall() + " Box small");
-        System.out.println("Building has " + Moscow.getOfMedium() + " Box medium");
-        System.out.println("Building has " + Moscow.getOfBig() + " Box big");
+        Place moscow = new Place("Moscow", 50, 40,30);
+        System.out.println("Building name: " + moscow.getName());
+        System.out.println("Building has " + moscow.getOfSmall() + " Box small");
+        System.out.println("Building has " + moscow.getOfMedium() + " Box medium");
+        System.out.println("Building has " + moscow.getOfBig() + " Box big");
 
-        Moscow.setName("Moscow1");
-        System.out.println("Building has another name: " + Moscow.getName());
+        moscow.setName("Moscow1");
+        System.out.println("Building has another name: " + moscow.getName());
 
-        Moscow.setOfSmall(48);
-        System.out.println(Moscow.getName() + " now has " + Moscow.getOfSmall() + " Box small");
+        moscow.setOfSmall(48);
+        System.out.println(moscow.getName() + " now has " + moscow.getOfSmall() + " Box small");
 
-        Moscow.setOfMedium(30);
-        System.out.println(Moscow.getName() + " now has " + Moscow.getOfMedium() + " Box medium");
+        moscow.setOfMedium(30);
+        System.out.println(moscow.getName() + " now has " + moscow.getOfMedium() + " Box medium");
 
-        Moscow.setOfBig(10);
-        System.out.println(Moscow.getName() + " now has " + Moscow.getOfBig() + " Box big");
+        moscow.setOfBig(10);
+        System.out.println(moscow.getName() + " now has " + moscow.getOfBig() + " Box big");
     }
 
 

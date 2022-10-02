@@ -52,39 +52,39 @@ public class Box {
     class MainBox{
 
         public static void main(String[] args) {
-           Box Small = new Box("Small",1200, 1200, 1200);
-           System.out.println("Name Box " + Small.getName()+ " cm");
-           System.out.println( "Height: " + Small.getHeight()+ " cm");
-           System.out.println( "Width: " + Small.getWidth()+ " cm");
-           System.out.println( "Length: " + Small.getLength()+ " cm");
+           Box small = new Box("Small",1200, 1200, 1200);
+           System.out.println("Name Box " + small.getName()+ " cm");
+           System.out.println( "Height: " + small.getHeight()+ " cm");
+           System.out.println( "Width: " + small.getWidth()+ " cm");
+           System.out.println( "Length: " + small.getLength()+ " cm");
            System.out.println(" ");
 
 
-            Box Medium= new Box("Medium",2000, 2200, 1500);
-            System.out.println("Name Box " + Medium.getName()+ " cm");
-            System.out.println( "Height: " + Medium.getHeight()+ " cm");
-            System.out.println( "Width: " + Medium.getWidth()+ " cm");
-            System.out.println( "Length: " + Medium.getLength()+ " cm");
+            Box medium= new Box("Medium",2000, 2200, 1500);
+            System.out.println("Name Box " + medium.getName()+ " cm");
+            System.out.println( "Height: " + medium.getHeight()+ " cm");
+            System.out.println( "Width: " + medium.getWidth()+ " cm");
+            System.out.println( "Length: " + medium.getLength()+ " cm");
             System.out.println(" ");
 
-            Box Big = new Box("Big",2400, 2500, 2100);
-            System.out.println("Name Box " + Big.getName()+ " cm");
-            System.out.println( "Height: " + Big.getHeight()+ " cm");
-            System.out.println( "Width: " + Big.getWidth()+ " cm");
-            System.out.println( "Length: " + Big.getLength()+ " cm");
+            Box big = new Box("Big",2400, 2500, 2100);
+            System.out.println("Name Box " + big.getName()+ " cm");
+            System.out.println( "Height: " + big.getHeight()+ " cm");
+            System.out.println( "Width: " + big.getWidth()+ " cm");
+            System.out.println( "Length: " + big.getLength()+ " cm");
             System.out.println(" ");
 
             System.out.println("     Change in the characteristics of box C ");
-            System.out.println("Name Box " + Big.getName());
+            System.out.println("Name Box " + big.getName());
 
-            Big.setHeight(2350);
-            System.out.println( "Height: " + Big.getHeight() + " cm");
+            big.setHeight(2350);
+            System.out.println( "Height: " + big.getHeight() + " cm");
 
-            Big.setLength(2550);
-            System.out.println( "Width: " + Big.getWidth() + " cm");
+            big.setLength(2550);
+            System.out.println( "Width: " + big.getWidth() + " cm");
 
-            Big.setWidth(2200);
-            System.out.println( "Length: " + Big.getLength()+ " cm");
+            big.setWidth(2200);
+            System.out.println( "Length: " + big.getLength()+ " cm");
 
 
     }

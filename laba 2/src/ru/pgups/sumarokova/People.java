@@ -54,29 +54,29 @@ public class People {
 
 class MainPeople {
     public static void main(String[] args){
-        People Ivan = new People("Ivan", 45, "technical department","manager");
-        System.out.println("Name: " + Ivan.getName());
-        System.out.println("Age: " + Ivan.getAge());
-        System.out.println("Department: " + Ivan.getDepartment());
-        System.out.println("Position: " + Ivan.getPosition());
+        People ivan = new People("Ivan", 45, "technical department","manager");
+        System.out.println("Name: " + ivan.getName());
+        System.out.println("Age: " + ivan.getAge());
+        System.out.println("Department: " + ivan.getDepartment());
+        System.out.println("Position: " + ivan.getPosition());
 
         //Ivan.setName("CBA");
-        System.out.println("Name: " + Ivan.getName());
+        System.out.println("Name: " + ivan.getName());
 
-        Ivan.setAge(48);
-        System.out.println("Age: " + Ivan.getAge());
+        ivan.setAge(48);
+        System.out.println("Age: " + ivan.getAge());
 
         //Ivan.setDepartment();
-        System.out.println("Department: " + Ivan.getDepartment());
+        System.out.println("Department: " + ivan.getDepartment());
 
-        Ivan.setPosition("general manager");
-        System.out.println("Position: " + Ivan.getPosition());
+        ivan.setPosition("general manager");
+        System.out.println("Position: " + ivan.getPosition());
 
-        People Kim = new People("Kim", 30, "finance department","accountant");
-        System.out.println("Name: " + Kim.getName());
-        System.out.println("Age: " + Kim.getAge());
-        System.out.println("Department: " + Kim.getDepartment());
-        System.out.println("Position: " + Kim.getPosition());
+        People kim = new People("Kim", 30, "finance department","accountant");
+        System.out.println("Name: " + kim.getName());
+        System.out.println("Age: " + kim.getAge());
+        System.out.println("Department: " + kim.getDepartment());
+        System.out.println("Position: " + kim.getPosition());
 
     }
 
