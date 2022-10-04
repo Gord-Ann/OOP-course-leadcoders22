@@ -12,10 +12,14 @@ public class Main {
         tour.setPrice(270000);
         System.out.println("New price - " +tour.getPrice());
 
-        Client first = new Client("Andrew", 89115543211L);
+        Client first = new Client("Andrew", "89115543211");
 
-        System.out.println("Client name - " + first.getName());
-        System.out.println("Client phone - " + first.getPhone());
+        System.out.println("Old client name - " + first.getName());
+        first.setName("Boris");
+        System.out.println("New client name - " +first.getName());
+        System.out.println("Old client phone - " + first.getPhone());
+        first.setPhone("8921465231");
+        System.out.println("New client phone - " + first.getPhone());
 
         Movement one = new Movement("train", 2);
 
