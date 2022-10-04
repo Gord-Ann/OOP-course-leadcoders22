@@ -6,6 +6,7 @@ public class Client {
         this.name = name;
         this.phone = phone;
     }
+
     public Client(){
     }
     public String getName(){

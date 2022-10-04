@@ -1,6 +1,5 @@
 public class Place {
     private String type;
-
     public Place(String type){
         this.type = type;
     }

@@ -18,7 +18,7 @@ public class Main {
         first.setName("Boris");
         System.out.println("New client name - " +first.getName());
         System.out.println("Old client phone - " + first.getPhone());
-        first.setPhone("8921465231");
+        first.setPhone("8931465231");
         System.out.println("New client phone - " + first.getPhone());
 
         Movement one = new Movement("train", 2);

@@ -6,7 +6,6 @@ public class Payment {
 }
     public Payment(){
     }
-
     public String getPayment(){
     return payment;
     }

@@ -4,7 +4,6 @@ public class Time {
     public Time(double time) {
         this.time = time;
     }
-
     public Time() {
     }
 

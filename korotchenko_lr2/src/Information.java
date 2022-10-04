@@ -1,7 +1,6 @@
 public class Information {
     private String food;
     private String wifi;
-
     public Information (String food, String wifi) {
         this.food = food;
         this.wifi = wifi;

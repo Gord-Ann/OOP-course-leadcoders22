@@ -8,7 +8,6 @@ public class Tour {
         this.city = city;
         this.price = price;
     }
-
     public Tour(){
     }
 

@@ -1,7 +1,6 @@
 public class Review {
     private int ratingFood;
     private int ratingWifi;
-
     public Review(int ratingFood, int ratingWifi) {
         this.ratingFood = ratingFood;
         this.ratingWifi = ratingWifi;

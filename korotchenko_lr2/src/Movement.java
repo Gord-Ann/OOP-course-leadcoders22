@@ -1,7 +1,6 @@
 public class Movement {
     private String type;
     private int time;
-
     public Movement(String type, int time){
         this.type = type;
         this.time = time;
