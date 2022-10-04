@@ -1,34 +1,34 @@
 public class Review {
-    private int rating_food;
-    private int rating_wifi;
+    private int ratingFood;
+    private int ratingWifi;
 
-    public Review(int rating_food, int rating_wifi) {
-        this.rating_food = rating_food;
-        this.rating_wifi = rating_wifi;
+    public Review(int ratingFood, int ratingWifi) {
+        this.ratingFood = ratingFood;
+        this.ratingWifi = ratingWifi;
     }
 
     public Review() {
     }
 
-    public int getRating_food() {
-        return rating_food;
+    public int getratingFood() {
+        return ratingFood;
     }
 
-    public void setRating_food(int rating_food) {
-        if (rating_food > 5) {
-            this.rating_food = rating_food;
+    public void setratingFood(int ratingFood) {
+        if (ratingFood > 5) {
+            this.ratingFood = ratingFood;
         } else {
             System.out.println("Error. Check your rating");
         }
     }
 
-    public int getRating_wifi() {
-        return rating_wifi;
+    public int getratingWifi() {
+        return ratingWifi;
     }
 
-    public void setRating_wifi(int rating_wifi) {
-        if (rating_wifi > 5) {
-            this.rating_wifi = rating_wifi;
+    public void setratingWifi(int ratingWifi) {
+        if (ratingWifi > 5) {
+            this.ratingWifi = ratingWifi;
         } else {
             System.out.println("Error. Check your rating");
         }

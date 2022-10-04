@@ -1,14 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        Tour tour = new Tour();
+        Tour tour = new Tour("Austria", "Salzburg", 250000);
 
-        tour.country = "Austria";
-        tour.city = "Salzburg";
-        tour.price = 250000;
-
-        System.out.println("Country - "+ tour.country);
-        System.out.println("City - "+ tour.city);
-        System.out.println("Price - "+ tour.price);
+        System.out.println("Old country - " + tour.getCountry());
+        tour.setCountry("Italy");
+        System.out.println("New country - " + tour.getCountry());
+        System.out.println("Old city - " + tour.getCity());
+        tour.setCity("Rome");
+        System.out.println("New city - " + tour.getCity());
+        System.out.println("Old price - " + tour.getPrice());
+        tour.setPrice(270000);
+        System.out.println("New price - " +tour.getPrice());
 
         Client first = new Client("Andrew", 89115543211L);
 
@@ -33,11 +35,11 @@ public class Main {
 
         Review firstt = new Review(5, 4);
 
-        System.out.println("Rating_food - " + firstt.getRating_food());
-        System.out.println("Rating_wifi - " + firstt.getRating_wifi());
+        System.out.println("ratingFood - " + firstt.getratingFood());
+        System.out.println("ratingWifi - " + firstt.getratingWifi());
 
-        boolean booleanTrue = firstt.getRating_wifi() == firstt.getRating_food();
-        boolean booleanFalse = firstt.getRating_food() < firstt.getRating_wifi();
+        boolean booleanTrue = firstt.getratingWifi() == firstt.getratingFood();
+        boolean booleanFalse = firstt.getratingFood() < firstt.getratingWifi();
         {
             if (booleanTrue) {
                 System.out.println("Place is great");
