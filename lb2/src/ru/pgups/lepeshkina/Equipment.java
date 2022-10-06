@@ -1,36 +1,36 @@
 package ru.pgups.lepeshkina;
 
 public class Equipment {
-    private String Name;
-    private String Characteristics;
-    private int Lifetime;
+    private String name;
+    private String characteristics;
+    private int lifetime;
 
-    public Equipment(String Name, String Characteristics, int Lifetime) {
-        this.Name = Name;
-        this.Characteristics = Characteristics;
-        this.Lifetime = Lifetime;
+    public Equipment(String name, String characteristics, int lifetime) {
+        this.name = name;
+        this.characteristics = characteristics;
+        this.lifetime = lifetime;
     }
     public String getName() {
-        return this.Name;
+        return this.name;
     }
 
-    public void setName(String Name) {
-        this.Name = Name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getCharacteristics() {
-        return this.Characteristics;
+        return this.characteristics;
     }
 
-    public void setCharacteristics(String Characteristics) {
-        this.Characteristics = Characteristics;
+    public void setCharacteristics(String characteristics) {
+        this.characteristics = characteristics;
     }
 
     public int getLifetime() {
-        return this.Lifetime;
+        return this.lifetime;
     }
 
-    public void setLifetime(int Lifetime) {
-        this.Lifetime = Lifetime;
+    public void setLifetime(int lifetime) {
+        this.lifetime = lifetime;
     }
 }
