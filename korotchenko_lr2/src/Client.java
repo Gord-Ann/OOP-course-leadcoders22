@@ -21,10 +21,10 @@ public class Client {
     public void setPhone(String phone) {
         if (phone.toString().length() >11){
         System.out.println("Error. Check your phone number");
-    }else{
-            if (phone.toString().length() <11){
+    }else if (phone.toString().length() <11){
                 System.out.println("Error. Check your phone number");
-            }
+            }else if (phone.toString().length() == 11) {
+            System.out.println("Great! Correct number.");
         }
     }
 }
