@@ -12,27 +12,27 @@ public class Address {
     public Address(){
     }
 
-    public String getcityName() {
+    public String getCityName() {
         return cityName;
     }
 
-    public void setcityName(String cityName) {
+    public void setCityName(String cityName) {
         this.cityName = cityName;
     }
 
-    public String getstreetName() {
+    public String getStreetName() {
         return streetName;
     }
 
-    public void setstreetName(String streetName) {
+    public void setStreetName(String streetName) {
         this.streetName = streetName;
     }
 
-    public int gethouseNumber() {
+    public int getHouseNumber() {
         return houseNumber;
     }
 
-    public void sethouseNumber(int houseNumber) {
+    public void setHouseNumber(int houseNumber) {
         if (houseNumber > 0) {
             this.houseNumber = houseNumber;
         }else{

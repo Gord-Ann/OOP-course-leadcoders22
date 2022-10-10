@@ -14,19 +14,19 @@ public class CarName {
     public CarName() {
     }
 
-    public String getbrandName() {
+    public String getBrandName() {
         return brandName;
     }
 
-    public void setbrandName(String brandName) {
+    public void setBrandName(String brandName) {
         this.brandName = brandName;
     }
 
-    public String getmodelName() {
+    public String getModelName() {
         return modelName;
     }
 
-    public void setmodelName(String modelName) {
+    public void setModelName(String modelName) {
         this.modelName = modelName;
     }
 

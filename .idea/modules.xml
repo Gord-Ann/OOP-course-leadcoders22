@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LR2 BUZUKIN.iml" filepath="$PROJECT_DIR$/.idea/LR2 BUZUKIN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kirill.iml" filepath="$PROJECT_DIR$/.idea/kirill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lr 2/lr 2.iml" filepath="$PROJECT_DIR$/lr 2/lr 2.iml" />
     </modules>
   </component>
 </project>

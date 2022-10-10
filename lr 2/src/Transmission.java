@@ -12,19 +12,19 @@ public class Transmission {
     public Transmission(){
     }
 
-    public String getgearType() {
+    public String getGearType() {
         return gearType;
     }
 
-    public void setgearType(String gearType) {
+    public void setGearType(String gearType) {
         this.gearType = gearType;
     }
 
-    public int getgearsAmount() {
+    public int getGearsAmount() {
         return gearsAmount;
     }
 
-    public void setgearsAmount(int gearsAmount) {
+    public void setGearsAmount(int gearsAmount) {
         if (gearsAmount > 0){
             this.gearsAmount = gearsAmount;
         }else{
@@ -32,10 +32,10 @@ public class Transmission {
         }
     }
 
-    public String getdriveType() {
+    public String getDriveType() {
         return driveType;
     }
-    public void setdriveType(String driveType) {
+    public void setDriveType(String driveType) {
         this.driveType = driveType;
     }
 }

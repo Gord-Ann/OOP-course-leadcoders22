@@ -12,27 +12,27 @@ public class Engine {
     public Engine(){
     }
 
-    public String getengineName(){
+    public String getEngineName(){
         return engineName;
     }
 
-    public void setengineName(String engineName){
+    public void setEngineName(String engineName){
         this.engineName = engineName;
     }
 
-    public String getengineType() {
+    public String getEngineType() {
         return engineType;
     }
 
-    public void setengineType(String engineType) {
+    public void setEngineType(String engineType) {
         this.engineType = engineType;
     }
 
-    public int gethorsepowerNumber(){
+    public int getHorsepowerNumber(){
         return horsepowerNumber;
     }
 
-    public void sethorsepowerNumber(int horsepowerNumber) {
+    public void setHorsepowerNumber(int horsepowerNumber) {
         if (horsepowerNumber > 0) {
             this.horsepowerNumber = horsepowerNumber;
         } else {

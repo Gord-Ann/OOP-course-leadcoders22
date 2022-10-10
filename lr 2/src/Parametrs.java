@@ -1,35 +1,35 @@
 public class Parametrs {
     private int trunkRatingVolume;
-    private int fueltankVolume;
+    private int fuelTankVolume;
     private int carWeight;
-    private int maxcarWeight;
+    private int maxCarWeight;
 
-    public Parametrs(int trunkRatingVolume, int fueltankVolume, int carWeight, int maxcarWeight){
+    public Parametrs(int trunkRatingVolume, int fuelTankVolume, int carWeight, int maxCarWeight){
         this.trunkRatingVolume = trunkRatingVolume;
-        this.fueltankVolume = fueltankVolume;
+        this.fuelTankVolume = fuelTankVolume;
         this.carWeight = carWeight;
-        this.maxcarWeight = maxcarWeight;
+        this.maxCarWeight = maxCarWeight;
     }
 
     public Parametrs(){
     }
 
-    public int getfueltankVolume() {
-        return fueltankVolume;
+    public int getFuelTankVolume() {
+        return fuelTankVolume;
     }
 
-    public void setfueltankVolume(int fueltankVolume) {
-        if (fueltankVolume >= 0){
-            this.fueltankVolume = fueltankVolume;
+    public void setFuelTankVolume(int fuelTankVolume) {
+        if (fuelTankVolume >= 0){
+            this.fuelTankVolume = fuelTankVolume;
         }else{
             System.out.println("Fuel tank cannot be negative");
         }
     }
 
-    public int getcarWeight() {
+    public int getCarWeight() {
         return carWeight;
     }
-    public void setcarWeight(int carWeight) {
+    public void setCarWeight(int carWeight) {
         if (carWeight >= 0){
             this.carWeight = carWeight;
         }else{
@@ -37,11 +37,11 @@ public class Parametrs {
         }
     }
 
-    public int gettrunkRatingVolume() {
+    public int getTrunkRatingVolume() {
         return trunkRatingVolume;
     }
 
-    public void settrunkRatingVolume(int trunkRatingVolume) {
+    public void setTrunkRatingVolume(int trunkRatingVolume) {
         if (trunkRatingVolume >= 0){
             this.trunkRatingVolume = trunkRatingVolume;
         }else{
@@ -49,12 +49,12 @@ public class Parametrs {
         }
     }
 
-    public int getmaxcarWeight() {
-        return maxcarWeight;
+    public int getMaxCarWeight() {
+        return maxCarWeight;
     }
-    public void setmaxcarWeight(int maxcarWeight) {
-        if (maxcarWeight >= 0){
-            this.maxcarWeight = carWeight;
+    public void setMaxCarWeight(int maxCarWeight) {
+        if (maxCarWeight >= 0){
+            this.maxCarWeight = carWeight;
         }else{
             System.out.println("Max carWeight cannot be negative");
         }
