@@ -12,9 +12,7 @@ public class Referee {
         this.name = name;
         this.standing = standing;
         this.rating = rating;
-
     }
-
     public String getName() {return this.name;}
     public void setName(String name){
         this.name = name;
