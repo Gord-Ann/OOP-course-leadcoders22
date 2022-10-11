@@ -22,5 +22,6 @@ public class Uniform {
     }
     public String getSeason() { return this.season;}
     public void setSeason(String season) {
-        this.season= season;}
+        this.season= season;
+    }
 }

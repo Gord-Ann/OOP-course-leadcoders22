@@ -18,15 +18,12 @@ public class Player {
     public void setName(String name) {
         this.name = name;
     }
-    public int getWeight() {
-        return this.weight;
+    public int getWeight() {return this.weight;
     }
-    public void setWeight(int weight)
-    {
+    public void setWeight(int weight) {
         this.weight = weight;
     }
-    public int getGrowth() {
-        return this.growth;
+    public int getGrowth() {return this.growth;
     }
     public void setGrowth(int growth) {
         this.growth = growth;

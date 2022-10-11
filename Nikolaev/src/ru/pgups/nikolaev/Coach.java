@@ -21,7 +21,8 @@ public class Coach {
     public void setStanding(int standing) {
         this.standing = standing;
     }
-    public int  getRating() {return this.rating;}
+    public int  getRating() {return this.rating;
+    }
     public void setRating(int rating) {
         this.rating = rating;
     }

@@ -23,6 +23,7 @@ public class Match {
     }
     public int getDuration() { return this.duration;}
     public void setDuration(int duration) {
-        this.duration = duration;}
+        this.duration = duration;
+    }
 }
 
