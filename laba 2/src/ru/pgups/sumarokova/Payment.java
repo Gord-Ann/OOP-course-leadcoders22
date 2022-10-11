@@ -25,27 +25,5 @@ public class Payment {
         this.paid = paid;
     }
 }
-    class MainMain {
-        public static void main(String[] args) {
-            Payment client1 = new Payment(1, true);
-            System.out.println("Number: " + client1.getNumber());
-            System.out.println("Paid: " + client1.getPaid());
-
-            Payment client2 = new Payment(2, true);
-            System.out.println("Number: " + client2.getNumber());
-            System.out.println("Paid: " + client2.getPaid());
-
-            Payment client3 = new Payment(3, false);
-            System.out.println("Number: " + client3.getNumber());
-            System.out.println("Paid: " + client3.getPaid());
-
-            System.out.println("Change in contract number 3:");
-
-            System.out.println("Number: " + client3.getNumber());
-
-            client3.setPaid(true);
-            System.out.println("Paid: " + client3.getPaid());
-        }
-    }
 
 

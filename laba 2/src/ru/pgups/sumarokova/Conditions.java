@@ -2,14 +2,21 @@ package ru.pgups.sumarokova;
 
 public class Conditions {
 
+    private int numberContract;
     private double temperature;
     private double humidity;
     private double lighting;
 
-    public Conditions(double temperature, double humidity, double lighting) {
+    public Conditions(int numberContract, double temperature, double humidity, double lighting) {
+        this.numberContract = numberContract;
         this.temperature = temperature;
         this.humidity = humidity;
         this.lighting = lighting;
+
+    }
+
+    public int getNumberContract() {
+        return numberContract;
     }
 
     public double getTemperature() {
@@ -24,6 +31,10 @@ public class Conditions {
         return lighting;
     }
 
+    public void setNumberContract(int numberContract) {
+        this.numberContract = numberContract;
+    }
+
     public void setTemperature(double temperature) {
         this.temperature = temperature;
     }
@@ -35,15 +46,6 @@ public class Conditions {
     public void setLighting(double lighting) {
         this.lighting = lighting;
     }
-}
-    class MainConditions{
-public static void main(String[] args){
-
-    Conditions foFirstClient = new Conditions(13.2, 12.2,10);
-    System.out.println("Temperature: " + foFirstClient.getTemperature());
-    System.out.println("Humidity: " + foFirstClient.getHumidity());
-    System.out.println("Lighting: " + foFirstClient.getLighting());
-}
 }
 
 

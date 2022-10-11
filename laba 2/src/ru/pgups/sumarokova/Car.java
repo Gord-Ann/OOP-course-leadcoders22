@@ -37,22 +37,3 @@ public class Car {
         this.liftingHeight = liftingHeight;
     }
 }
-    class MainCar {
-
-        public static void main(String[] args){
-            Car firstCar = new Car("fork lift 1", 17.7, 2000);
-            System.out.println("Car: " + firstCar.getName());
-            System.out.println("The car has a speed of " + firstCar.getSpeedOfMovement()+ "km/h") ;
-            System.out.println("The machine has a lifting height of " + firstCar.getLiftingHeight()+ "cm");
-
-            firstCar.setName("fork lift 2");
-            System.out.println("The car has another name: " + firstCar.getName());
-
-            firstCar.setSpeedOfMovement(15.4);
-            System.out.println("The car has a speed of " + firstCar.getSpeedOfMovement() + "km/h");
-
-            firstCar.setLiftingHeight(2300);
-            System.out.println("The machine has a lifting height of " + firstCar.getLiftingHeight() + "cm");
-        }
-
-    }

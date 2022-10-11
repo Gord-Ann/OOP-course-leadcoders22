@@ -52,33 +52,3 @@ public class People {
     }
 }
 
-class MainPeople {
-    public static void main(String[] args){
-        People ivan = new People("Ivan", 45, "technical department","manager");
-        System.out.println("Name: " + ivan.getName());
-        System.out.println("Age: " + ivan.getAge());
-        System.out.println("Department: " + ivan.getDepartment());
-        System.out.println("Position: " + ivan.getPosition());
-
-        //Ivan.setName("CBA");
-        System.out.println("Name: " + ivan.getName());
-
-        ivan.setAge(48);
-        System.out.println("Age: " + ivan.getAge());
-
-        //Ivan.setDepartment();
-        System.out.println("Department: " + ivan.getDepartment());
-
-        ivan.setPosition("general manager");
-        System.out.println("Position: " + ivan.getPosition());
-
-        People kim = new People("Kim", 30, "finance department","accountant");
-        System.out.println("Name: " + kim.getName());
-        System.out.println("Age: " + kim.getAge());
-        System.out.println("Department: " + kim.getDepartment());
-        System.out.println("Position: " + kim.getPosition());
-
-    }
-
-
-}
