@@ -15,7 +15,7 @@ public class Sport {
         System.out.println(ball.getWeight());
         System.out.println();
 
-        Coach coach = new Coach("John", 20,3);
+        Coach coach = new Coach("John", 20, 3);
         System.out.println(coach.getName());
         System.out.println(coach.getStanding());
         System.out.println(coach.getRating());
@@ -57,7 +57,6 @@ public class Sport {
         System.out.println(uniform.getSize());
         System.out.println();
     }
-
 
 
 }
