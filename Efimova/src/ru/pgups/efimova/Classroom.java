@@ -13,10 +13,7 @@ public class Classroom {
         this.number = number;
         this.capacity = capacity;
     }
-    public String getClassroomInfo() {
-        String result = "Name:" + this.name + "Number:" + this.number + "Capacity:" + this.capacity;
-        return result;
-}
+
     public String getName() {return this.name;}
     public void setName(String name){
         this.name = name;
@@ -30,3 +27,4 @@ public class Classroom {
         this.capacity = capacity;
     }
     }
+

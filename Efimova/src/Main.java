@@ -15,10 +15,10 @@ public class Main {
         System.out.print(professor.getFaculty());
 
         System.out.println();
-        Departament AIT = new Departament("AIT", 5, 115);
-        System.out.println(AIT.getName());
-        System.out.println(AIT.getHousing());
-        System.out.print(AIT.getNumberOfTeachers());
+        Departament ait = new Departament("ait", 5, 115);
+        System.out.println(ait.getName());
+        System.out.println(ait.getHousing());
+        System.out.print(ait.getNumberOfTeachers());
 
         System.out.println();
         Exam russian = new Exam("Russian", 5, 35);

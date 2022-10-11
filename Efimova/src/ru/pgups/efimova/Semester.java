@@ -9,10 +9,8 @@ public class Semester {
         this.number = number;
         this.courseOfStudy = courseOfStudy;
     }
-    public String getSemesterInfo() {
-        String result = "Progress:" + this.progress + "Number:"+ this.number + "courseOfStudy:" + this.courseOfStudy;
-        return result;
-    }
+
+
     public String getProgress() {return this.progress;}
     public void setProgress(String progress){
         this.progress = progress;

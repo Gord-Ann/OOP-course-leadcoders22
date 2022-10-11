@@ -9,10 +9,8 @@ public class Group {
         this.amountStudents = amountStudents;
         this.groupLeader = groupLeader;
     }
-    public String getGroupInfo() {
-        String result = "Name:" + this.name + "AmountStudents:"+ this.amountStudents + "groupLeader:" + this.groupLeader;
-        return result;
-    }
+
+
     public String getName() {return this.name;}
     public void setName(String name){
         this.name = name;

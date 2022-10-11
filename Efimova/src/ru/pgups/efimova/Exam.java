@@ -9,10 +9,8 @@ public class Exam {
         this.grade = grade;
         this.duration = duration;
     }
-    public String getExamInfo() {
-        String result = "Subject:" + this.subject + "Grade:"+ this.grade + "Duration:" + this.duration;
-        return result;
-    }
+
+
     public String getSubject() {return this.subject;}
     public void setSubject(String subject){
         this.subject = subject;

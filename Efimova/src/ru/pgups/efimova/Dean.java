@@ -10,10 +10,7 @@ public class Dean {
         this.standing = standing;
         this.faculty = faculty;
 }
-    public String getDeanInfo() {
-        String result = "AcademicDegree:" + this.academicDegree + "standing:" + this.standing + "Faculty:" + this.faculty;
-        return result;
-    }
+
     public String getAcademicDegree() {return this.academicDegree;}
     public void setAcademicDegree(String academicDegree){
         this.academicDegree = academicDegree;
