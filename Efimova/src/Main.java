@@ -45,16 +45,16 @@ public class Main {
         System.out.print(builder.getNumberOfStudents());
 
         System.out.println();
-        Student Ivanov = new Student("Ivanov" , 3, "RYU");
-        System.out.println(Ivanov.getName());
-        System.out.println(Ivanov.getCourseOfStudy());
-        System.out.print(Ivanov.getFaculty());
+        Student ivanov = new Student("Ivanov" , 3, "RYU");
+        System.out.println(ivanov.getName());
+        System.out.println(ivanov.getCourseOfStudy());
+        System.out.print(ivanov.getFaculty());
 
         System.out.println();
-        Teacher Sokolov = new Teacher("Sokolov" , 33, "Russian");
-        System.out.println(Sokolov.getName());
-        System.out.println(Sokolov.getStanding());
-        System.out.print(Sokolov.getSubject());
+        Teacher sokolov = new Teacher("Sokolov" , 33, "Russian");
+        System.out.println(sokolov.getName());
+        System.out.println(sokolov.getStanding());
+        System.out.print(sokolov.getSubject());
     }
 }
 
