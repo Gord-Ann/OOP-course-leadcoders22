@@ -15,21 +15,16 @@ public class Referee {
 
     }
 
-
     public String getName() {return this.name;}
     public void setName(String name){
         this.name = name;
-
     }
-
     public int getStanding() { return this.standing;}
     public void setStanding(int standing) {
         this.standing = standing;
     }
-
     public int  getRating() {return this.rating;}
     public void setRating(int rating) {
-
         this.rating = rating;
     }
 }
