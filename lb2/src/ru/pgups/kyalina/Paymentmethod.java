@@ -1,6 +1,6 @@
 package ru.pgups.kyalina;
 
-public class paymentmethod {
+public class Paymentmethod {
 
     private String cash;
 
@@ -8,11 +8,16 @@ public class paymentmethod {
 
     private int account;
 
-    public paymentmethod(String cash, int card, int account){
+    public Paymentmethod(String cash, int card, int account){
         this.cash = cash;
         this.card = card;
         this.account = account;
     }
+
+    public Paymentmethod() {
+
+    }
+
     public String getCash(){return  this.cash;}
     public void setCash(String cash){
         this.cash = cash;

@@ -1,15 +1,15 @@
 package ru.pgups.kyalina;
 
-public class address {
+public class Address {
 
     private String city;
     private String street;
-    private int house_number;
+    private int houseNumber;
 
     public void Address(String city, String street, int house_number){
         this.city = city;
         this.street = street;
-        this.house_number = house_number;
+        this.houseNumber = houseNumber;
     }
 
     public void Address(){
@@ -31,16 +31,18 @@ public class address {
         this.street = street;
     }
 
-    public int getHouse_number() {
-        return house_number;
+    public int gethouseNumber() {
+        return houseNumber;
     }
 
-    public void setHouse_number(int house_number) {
-        if (house_number > 0) {
-            this.house_number = house_number;
+    public void setHouse_number(int houseNumber) {
+        if (houseNumber > 0) {
+            this.houseNumber = houseNumber;
         }else{
             System.out.println("House number cannot be less than 0");
         }
+
     }
+
 }
 

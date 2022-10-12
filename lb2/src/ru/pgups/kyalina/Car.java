@@ -1,6 +1,6 @@
 package ru.pgups.kyalina;
 
-public class car {
+public class Car {
 
     private String number;
 
@@ -21,8 +21,8 @@ public class car {
     public void setModel(int model){
         this.model = model;
     }
-    public int getCarbrand(){return this.carbrand;}
-    public void setCarbrand(int carbrand){
+    public int getcarBrand(){return this.carbrand;}
+    public void setcarBrand(int carbrand){
         this.carbrand = carbrand;
     }
 

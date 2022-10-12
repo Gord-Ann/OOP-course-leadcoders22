@@ -1,12 +1,12 @@
 package ru.pgups.kyalina;
 
-public class dispatcher {
+public class Dispatcher {
 
     private String experience;
     private int salary;
     private int name;
 
-    public dispatcher(String experience, int salary, int name) {
+    public Dispatcher(String experience, int salary, int name) {
         this.experience = experience;
         this.salary = salary;
         this.name = name;

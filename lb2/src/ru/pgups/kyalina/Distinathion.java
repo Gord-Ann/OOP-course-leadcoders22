@@ -1,6 +1,6 @@
 package ru.pgups.kyalina;
 
-public class distinathion {
+public class Distinathion {
 
     private String country;
 

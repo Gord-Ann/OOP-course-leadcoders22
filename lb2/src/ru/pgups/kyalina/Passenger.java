@@ -1,6 +1,6 @@
 package ru.pgups.kyalina;
 
-public class passenger {
+public class Passenger {
 
     private String name;
 
@@ -8,11 +8,16 @@ public class passenger {
 
     private int address;
 
-    public passenger(String name, int rating, int address){
+    public Passenger(String name, int rating, int address){
         this.name = name;
         this.rating = rating;
         this.address = address;
     }
+
+    public Passenger() {
+
+    }
+
     public String getName() {return  this.name;}
     public void setName (String name){
         this.name = name;

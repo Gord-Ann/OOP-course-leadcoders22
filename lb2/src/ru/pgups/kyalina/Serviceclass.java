@@ -1,6 +1,6 @@
 package ru.pgups.kyalina;
 
-public class serviceclass {
+public class Serviceclass {
 
     private String economy;
 
@@ -8,11 +8,16 @@ public class serviceclass {
 
     private int business;
 
-    public serviceclass(String economy, int comfort, int business){
+    public Serviceclass(String economy, int comfort, int business){
         this.economy = economy;
         this.comfort = comfort;
         this.business = business;
     }
+
+    public Serviceclass() {
+
+    }
+
     public String getEconomy() {return this.economy;}
     public void setEconomy (String economy){
         this.economy = economy;

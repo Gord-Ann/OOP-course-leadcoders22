@@ -1,16 +1,21 @@
 package ru.pgups.kyalina;
 
-public class driver {
+public class Driver {
 
     private String experience;
     private int age;
     private int name;
 
-    public driver(String experience, int age, int name) {
+    public Driver(String experience, int age, int name) {
         this.experience = experience;
         this.age = age;
         this.name = name;
     }
+
+    public Driver() {
+
+    }
+
     public String getExperience() {return this.experience;}
 
     public void setExperience(String experience) {
