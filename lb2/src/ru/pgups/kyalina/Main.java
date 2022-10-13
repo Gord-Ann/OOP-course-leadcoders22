@@ -28,10 +28,10 @@ public class Main {
         System.out.println(driver.getName());
         System.out.println();
 
-        Medicalexemination medicalexemination = new Medicalexemination();
+        Medicalexamination medicalexemination = new Medicalexamination();
         System.out.println(medicalexemination.getConclusion());
-        System.out.println(medicalexemination.getnegativeAnswer());
-        System.out.println(medicalexemination.getpositiveAnswer());
+        System.out.println(medicalexemination.getNegativeanswer());
+        System.out.println(medicalexemination.getPositiveanswer());
         System.out.println();
 
         Order order = new Order();
