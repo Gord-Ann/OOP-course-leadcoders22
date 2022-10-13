@@ -2,14 +2,14 @@ package ru.pgups.kyalina;
 
 public class Order {
 
-    private String orderNumber;
+    private int orderNumber;
 
     private int cost;
 
     private int address;
 
-    public Order(String ordernumber, int cost, int address){
-        this.orderNumber = ordernumber;
+    public Order(int ordernumber, int cost, int address){
+        this.orderNumber = orderNumber;
         this.cost = cost;
         this.address = address;
     }
@@ -18,8 +18,9 @@ public class Order {
 
     }
 
-    public String getorderNumber(){return this.orderNumber;}
-    public void setrderNumber (String orderNumber){
+    public int getorderNumber(){return this.orderNumber;
+    }
+    public void setrderNumber (int orderNumber){
         this.orderNumber = orderNumber;
     }
     public int getCost(){return this.cost;}

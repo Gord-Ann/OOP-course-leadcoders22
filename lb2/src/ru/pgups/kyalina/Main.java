@@ -4,73 +4,58 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println();
-        Address Address = new Address();
-        System.out.println(Address.getCity());
-        System.out.println(Address.getStreet());
-        System.out.println(Address.gethouseNumber());
+        Address address = new Address();
+        System.out.println(address.getCity());
+        System.out.println(address.getStreet());
+        System.out.println(address.gethouseNumber());
         System.out.println();
 
-        Car Car = new Car();
-        System.out.println(Car.getNumber());
-        System.out.println(Car.getModel());
-        System.out.println(Car.getcarBrand());
+        Car car = new Car();
+        System.out.println(car.getNumber());
+        System.out.println(car.getModel());
+        System.out.println(car.getcarBrand());
         System.out.println();
 
-        Distinathion Destinathion = new Distinathion();
-        System.out.println(Destinathion.getCountry());
-        System.out.println(Destinathion.getCity());
-        System.out.println(Destinathion.getAddress());
+        Distinathion destinathion = new Distinathion();
+        System.out.println(destinathion.getCountry());
+        System.out.println(destinathion.getCity());
+        System.out.println(destinathion.getAddress());
         System.out.println();
 
-        Driver Driver = new Driver();
-        System.out.println(Driver.getExperience());
-        System.out.println(Driver.getAge());
-        System.out.println(Driver.getName());
+        Driver driver = new Driver();
+        System.out.println(driver.getExperience());
+        System.out.println(driver.getAge());
+        System.out.println(driver.getName());
         System.out.println();
 
-        Medicalexemination Medicalexemination = new Medicalexemination();
-        System.out.println(Medicalexemination.getConclusion());
-        System.out.println(Medicalexemination.getnegativeAnswer());
-        System.out.println(Medicalexemination.getpositiveAnswer());
+        Medicalexemination medicalexemination = new Medicalexemination();
+        System.out.println(medicalexemination.getConclusion());
+        System.out.println(medicalexemination.getnegativeAnswer());
+        System.out.println(medicalexemination.getpositiveAnswer());
         System.out.println();
 
-        Order Order = new Order();
-        System.out.println(Order.getorderNumber());
-        System.out.println(Order.getCost());
-        System.out.println(Order.getAddress());
+        Order order = new Order();
+        System.out.println(order.getorderNumber());
+        System.out.println(order.getCost());
+        System.out.println(order.getAddress());
         System.out.println();
 
-        Passenger Passenger = new Passenger();
-        System.out.println(Passenger.getName());
-        System.out.println(Passenger.getRating());
-        System.out.println(Passenger.getAddress());
+        Passenger passenger = new Passenger();
+        System.out.println(passenger.getName());
+        System.out.println(passenger.getRating());
+        System.out.println(passenger.getAddress());
         System.out.println();
 
-        Paymentmethod Paymentmethod = new Paymentmethod();
-        System.out.println(Paymentmethod.getCash());
-        System.out.println(Paymentmethod.getCard());
-        System.out.println(Paymentmethod.getAccount());
+        Paymentmethod paymentmethod = new Paymentmethod();
+        System.out.println(paymentmethod.getCash());
+        System.out.println(paymentmethod.getCard());
+        System.out.println(paymentmethod.getAccount());
         System.out.println();
 
-        Serviceclass Serviceclass = new Serviceclass();
-        System.out.println(Serviceclass.getEconomy());
-        System.out.println(Serviceclass.getEconomy());
-        System.out.println(Serviceclass.getBusiness());
+        Serviceclass serviceclass = new Serviceclass();
+        System.out.println(serviceclass.getEconomy());
+        System.out.println(serviceclass.getEconomy());
+        System.out.println(serviceclass.getBusiness());
         System.out.println();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

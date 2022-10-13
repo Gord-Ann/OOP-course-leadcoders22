@@ -1,6 +1,6 @@
 package ru.pgups.kyalina;
 
-public class Medicalexemination {
+public class medicalExemination {
 
     private String conclusion;
 
