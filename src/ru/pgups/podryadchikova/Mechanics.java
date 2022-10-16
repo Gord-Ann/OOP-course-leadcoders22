@@ -1,10 +1,10 @@
 package ru.pgups.podryadchikova;
 
 public class Mechanics {
-    String brand;
-    String body;
-    int release;
-    double run;
+    private String brand;
+    private String body;
+    private int release;
+    private double run;
 
     public Mechanics(String brand, String body, int release, double run) {
         this.brand = brand;
@@ -12,17 +12,32 @@ public class Mechanics {
         this.release = release;
         this.run = run;
     }
-    void showInfo() {
-        System.out.println("Brand:" + brand);
-        System.out.println("Color:" + body);
-        System.out.println("Release:" + release);
-        System.out.println("Run:" + run);
+    public double getRun() {
+        return run;
     }
-    public static void main(String[] args) {
-        Mechanics auto = new Mechanics("ford", "universal", 2015, 345.24);
-        auto.showInfo();
+    public void setRun(double run) {
+        this.run = run;
+    }
 
-        Mechanics auto1 = new Mechanics("kia", "coupe", 2018, 345.6);
-        auto1.showInfo();
+    public int getRelease() {
+        return release;
     }
+    public void setRelease(int release) {
+        this.release = release;
+    }
+
+    public String getBody() {
+        return body;
+    }
+    public void setBody(String body) {
+        this.body = body;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
 }

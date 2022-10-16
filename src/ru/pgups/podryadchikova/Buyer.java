@@ -1,9 +1,9 @@
 package ru.pgups.podryadchikova;
 
 public class Buyer {
-    String name;
-    String car;
-    boolean buy;
+    private String name;
+    private String car;
+   private boolean buy;
 
     public Buyer(String name, String car, boolean buy) {
         this.name = name;
@@ -21,6 +21,9 @@ public class Buyer {
     public String getCar() {
         return car;
     }
+    public void setCar(String car) {
+        this.car = car;
+    }
     public boolean getBuy() {
         return buy;
     }
@@ -29,19 +32,4 @@ public class Buyer {
         this.buy = buy;
     }
 
-    static class MainBuyer {
-        public static void main(String[] args) {
-            Buyer buyer = new Buyer("Victor","bmw", false);
-            System.out.println("Owner's name:" + buyer.getName());
-            System.out.println("Car's brand:" + buyer.getCar());
-            System.out.println("Car's buy:" + buyer.getBuy());
-
-            buyer.setName("audi");
-            System.out.println("Car terns:" + buyer.getName());
-
-            buyer.setBuy(true);
-            System.out.println("Buy another car:" + buyer.getBuy());
-
-        }
-    }
 }

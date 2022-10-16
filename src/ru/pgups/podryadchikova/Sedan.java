@@ -1,12 +1,12 @@
 package ru.pgups.podryadchikova;
 
 public class Sedan {
-    String brand;
-    String color;
-    int release;
-    int price;
-    double run;
-    int owner;
+    private String brand;
+    private String color;
+    private int release;
+    private int price;
+    private double run;
+    private int owner;
 
     public Sedan (String brand, String color, int release, int price, double run, int owner) {
         this.brand = brand;
@@ -16,20 +16,41 @@ public class Sedan {
         this.run = run;
         this.owner = owner;
     }
-    void showInfo() {
-        System.out.println("Brand:" + brand);
-        System.out.println("Color:" + color);
-        System.out.println("Release:" + release);
-        System.out.println("Price:" + price);
-        System.out.println("Run:" + run);
-        System.out.println("Owner:" + owner);
+    public String getBrand() {
+        return brand;
+    }
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+    public String getColor() {
+        return color;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+    public int getRelease() {
+        return release;
+    }
+    public void setRelease(int release) {
+        this.release = release;
+    }
+    public int getPrice() {
+        return price;
+    }
+    public void setPrice(int price) {
+        this.price = price;
+    }
+    public double getRun() {
+        return run;
+    }
+    public void setRun(double run) {
+        this.run = run;
+    }
+    public int getOwner() {
+        return owner;
+    }
+    public void setOwner(int owner) {
+        this.owner = owner;
+    }
     }
 
-    public static void main(String[] args) {
-        Sedan auto = new Sedan("ford", "green", 2020, 400000, 545.67, 1);
-        auto.showInfo();
-
-        Sedan auto1 = new Sedan("honda", "grey", 2017, 200000, 423.8, 2);
-        auto1.showInfo();
-    }
-}

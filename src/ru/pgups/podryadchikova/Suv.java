@@ -1,6 +1,6 @@
 package ru.pgups.podryadchikova;
 
-public class Cabriolet {
+public class Suv {
     private String brand;
     private String color;
     private int release;
@@ -8,7 +8,7 @@ public class Cabriolet {
     private double run;
     private int owner;
 
-    public Cabriolet (String brand, String color, int release, int price, double run, int owner) {
+    public Suv(String brand, String color, int release, int price, double run, int owner) {
         this.brand = brand;
         this.color = color;
         this.release = release;
@@ -23,21 +23,18 @@ public class Cabriolet {
     public void setRun(double run) {
         this.run = run;
     }
-
     public int getOwner() {
         return owner;
     }
     public void setOwner(int owner) {
         this.owner = owner;
     }
-
     public int getPrice() {
         return price;
     }
     public void setPrice(int price) {
         this.price = price;
     }
-
     public int getRelease() {
         return release;
     }
@@ -57,5 +54,6 @@ public class Cabriolet {
     public void setBrand(String brand) {
         this.brand = brand;
     }
+
 }
 

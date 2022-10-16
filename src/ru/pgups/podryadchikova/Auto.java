@@ -1,13 +1,13 @@
 package ru.pgups.podryadchikova;
 
 public class Auto {
-    String brand;
-    String color;
-    String transmission;
-    int release;
-    int price;
-    double run;
-    int owner;
+    private String brand;
+    private String color;
+    private String transmission;
+    private int release;
+    private int price;
+    private double run;
+    private int owner;
 
     public Auto(String brand, String color, String transmission, int release, int price, double run, int owner) {
         this.brand = brand;
@@ -19,22 +19,49 @@ public class Auto {
         this.owner = owner;
     }
 
-    void showInfo() {
-        System.out.println("Brand:" + brand);
-        System.out.println("Color:" + color);
-        System.out.println("transmission:" + transmission);
-        System.out.println("Release:" + release);
-        System.out.println("Price:" + price);
-        System.out.println("Run:" + run);
-        System.out.println("Owner:" + owner);
+    public String getBrand() {
+        return brand;
+    }
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+    public String getColor() {
+        return color;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+    public String getTrans() {
+        return transmission;
+    }
+    public void setTrans(String transmission) {
+        this.transmission = transmission;
+    }
+    public int getRelease() {
+        return release;
+    }
+    public void setRelease(int release) {
+        this.release = release;
+    }
+    public int getPrice() {
+        return price;
+    }
+    public void setPrice(int price) {
+        this.price = price;
+    }
+    public double getRun() {
+        return run;
+    }
+    public void setRun(double run) {
+        this.run = run;
+    }
+    public int getOwner() {
+        return owner;
+    }
+    public void setOwner(int owner) {
+        this.owner = owner;
     }
 
 
-    public static void main(String[] args) {
-        Auto auto = new Auto("bmw", "black","automatic", 2017, 600000, 345.67,1);
-        auto.showInfo();
 
-        Auto auto1 = new Auto("audi", "pink", "automatic",2019, 500000, 456.8, 2);
-        auto1.showInfo();
-    }
 }
