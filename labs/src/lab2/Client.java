@@ -20,10 +20,6 @@ public class Client {
         return phone;
     }
     public void setPhone(Long phone) {
-        if (phone !=11){
             this.phone = phone;
-        }else{
-            System.out.println("Ошибка!");
         }
-    }
 }
