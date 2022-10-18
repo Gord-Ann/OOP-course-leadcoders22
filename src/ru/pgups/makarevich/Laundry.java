@@ -1,12 +1,12 @@
 package ru.pgups.makarevich;
 
-public class Laundry {    private String name;
+public class laundry {    private String name;
 
     private int year;
 
     private String city;
 
-    public Laundry(String name, int year, String city){
+    public laundry(String name, int year, String city){
         this.name = name;
         this.year = year;
         this.city = city;

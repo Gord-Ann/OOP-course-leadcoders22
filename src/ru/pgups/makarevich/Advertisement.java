@@ -1,13 +1,13 @@
 package ru.pgups.makarevich;
 
-public class Advertisement {
+public class advertisement {
     private String Admin;
 
     private int people;
 
     private String vid;
 
-    public Advertisement(String Admin, int people, String vid){
+    public advertisement(String Admin, int people, String vid){
         this.Admin = Admin;
         this.people = people;
         this.vid = vid;

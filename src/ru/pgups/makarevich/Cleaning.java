@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class Cleaning {
+public class cleaning {
 
     private String Admin;
 
@@ -8,7 +8,7 @@ public class Cleaning {
 
     private String time;
 
-    public Cleaning(String admin, int people, String time){
+    public cleaning(String admin, int people, String time){
         this.Admin = admin;
         this.people = people;
         this.time = time;

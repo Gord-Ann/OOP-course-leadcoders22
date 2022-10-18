@@ -1,13 +1,13 @@
 package ru.pgups.makarevich;
 
-public class Security {
+public class security {
     private String Admin;
 
     private int people;
 
     private int look;
 
-    public Security(String Admin, int people, int look){
+    public security(String Admin, int people, int look){
         this.Admin = Admin;
         this.people = people;
         this.look = look;

@@ -1,13 +1,13 @@
 package ru.pgups.makarevich;
 
-public class Repair {
+public class repair {
     private String Admin;
 
     private int people;
 
     private String obor;
 
-    public Repair(String Admin, int people, String obor){
+    public repair(String Admin, int people, String obor){
         this.Admin = Admin;
         this.people = people;
         this.obor = obor;

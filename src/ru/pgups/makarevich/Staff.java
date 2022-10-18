@@ -1,13 +1,13 @@
 package ru.pgups.makarevich;
 
-public class Staff {
+public class staff {
     private String Name;
 
     private String rang;
 
     private int year;
 
-    public Staff(String Name, String rang, int year){
+    public staff(String Name, String rang, int year){
         this.Name = Name;
         this.rang = rang;
         this.year = year;

@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class Restaurant {
+public class restaurant {
 
     private String timeEat;
 
@@ -8,7 +8,7 @@ public class Restaurant {
 
     private int cash;
 
-    public Restaurant(String timeEat, int stol, int cash){
+    public restaurant(String timeEat, int stol, int cash){
         this.timeEat = timeEat;
         this.stol = stol;
         this.cash = cash;

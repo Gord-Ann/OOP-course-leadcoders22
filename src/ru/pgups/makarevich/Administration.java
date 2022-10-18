@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class Administration {
+public class administration {
 
     private String Admin;
 
@@ -8,7 +8,7 @@ public class Administration {
 
     private int high;
 
-    public Administration(String Admin, int people, int high){
+    public administration(String Admin, int people, int high){
         this.Admin = Admin;
         this.people = people;
         this.high = high;

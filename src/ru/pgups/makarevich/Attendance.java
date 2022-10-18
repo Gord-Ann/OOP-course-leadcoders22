@@ -1,13 +1,13 @@
 package ru.pgups.makarevich;
 
-public class Attendance {
+public class attendance {
     private String Name;
 
     private int number;
 
     private String time;
 
-    public Attendance(String Name, int number, String time){
+    public attendance(String Name, int number, String time){
         this.Name = Name;
         this.number = number;
         this.time = time;
