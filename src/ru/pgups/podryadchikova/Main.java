@@ -2,10 +2,10 @@ package ru.pgups.podryadchikova;
 
 public class Main {
     public static void main(String[] args) {
-        Buyer Slava = new Buyer("Vladimir","audi",true);
-        System.out.println("Owner's name:" + Slava.getName());
-        System.out.println("Car's brand:" + Slava.getCar());
-        System.out.println("Car's buy:" + Slava.getBuy());
+        Buyer slava = new Buyer("Vladimir","audi",true);
+        System.out.println("Owner's name:" + slava.getName());
+        System.out.println("Car's brand:" + slava.getCar());
+        System.out.println("Car's buy:" + slava.getBuy());
         System.out.println();
 
         Cabriolet cabriolet = new Cabriolet("porshe", "white", 2022,20000000,324.34,1);
