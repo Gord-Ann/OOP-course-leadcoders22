@@ -1,20 +1,20 @@
 package l2;
 
-public class Books {
-    String title;
-    int pages;
+public class Book {
+    private String title;
+   private int pages;
 
-    public Books() {
+    public Book() {
         this.title = "Three Comrades";
         this.pages = 480;
     }
 
-    public Books(int pages) {
+    public Book(int pages) {
         this.title = "Crime and punishment";
         this.pages = pages;
     }
 
-    public Books(String title, int pages) {
+    public Book(String title, int pages) {
         this.title = title;
         this.pages = pages;
     }
@@ -26,13 +26,13 @@ public class Books {
 
     public static void main(String[] args) {
 
-        Books ThreeComrades = new Books();
-        ThreeComrades.showInfo();
+        Book threeComrades = new Book();
+        threeComrades.showInfo();
 
-        Books CrimeAndPunishment = new Books(470);
-        CrimeAndPunishment.showInfo();
+        Book crimeandPunishment = new Book(470);
+        crimeandPunishment.showInfo();
 
-        Books primer = new Books("primer", 96);
+        Book primer = new Book("primer", 96);
         primer.showInfo();
     }
 }

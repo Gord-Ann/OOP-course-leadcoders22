@@ -1,8 +1,8 @@
 package l2;
 
 public class staff {
-    String  name;
-    int age;
+    private String  name;
+    private int age;
     void  showInfo(){
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);

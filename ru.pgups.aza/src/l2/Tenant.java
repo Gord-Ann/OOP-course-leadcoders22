@@ -1,8 +1,8 @@
 package l2;
 
 public class Tenant {
-    String name;
-    String books;
+    private String name;
+    private String books;
     boolean rent;
 
     public Tenant( String name, String books, boolean rent) {
