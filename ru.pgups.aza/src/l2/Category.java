@@ -27,17 +27,4 @@ public class Category {
 }
 
 
-class MainCategory {
-    public static void main(String[] args) {
-       Category art = new Category("Art", 78);
-        System.out.println("name's name: " + art.getName());
-        System.out.println("quantity's quantity: " + art.getQuantity());
-
-      art.setQuantity(73);
-        System.out.println("Art turns: " + art.getQuantity());
-
-       art.setName("artistic");
-        System.out.println("Art has another name: " + art.getName());
-    }
-}
 

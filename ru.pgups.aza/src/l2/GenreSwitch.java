@@ -2,7 +2,7 @@ package l2;
 
 public class GenreSwitch {
     public static void main(String[] args){
-        int booksGenre = 0;
+        int booksGenre = 2;
         // 0- интересно
         // 1- дктективы
         // 2- научная литература
@@ -15,7 +15,7 @@ public class GenreSwitch {
                 break;
             case 1:
                 System.out.println ("Nancy Drew's book is being issued");
-                break;
+
             case 2:
                 System.out.println ("The book Theory of Everything is issued");
                 break;

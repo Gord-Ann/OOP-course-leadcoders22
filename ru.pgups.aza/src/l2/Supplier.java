@@ -1,27 +1,37 @@
 package l2;
 
 public class Supplier {
-    private String  name;
+    private String name;
     private String object;
+    private String type;
 
-    void  showInfo(){
-        System.out.println("Name: " + name);
-        System.out.println("Object: " + object);
-    }
-    public static void main(String[] args) {
-        Supplier supplier = new Supplier();
-
-        supplier.name = "Sun";
-        supplier.object = "chairs";
-
-        supplier.showInfo();
-
-        Supplier supplier1 = new Supplier();
-
-        supplier1.name = "Genius";
-        supplier1.object = "computers";
-
-        supplier1.showInfo();
+    public Supplier(String name, String object, String type ) {
+        this.name=name;
+        this.object= object;
+        this.type=type;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getObject() {
+        return object;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setObject(String object) {
+        this.object = object;
+    }
 }

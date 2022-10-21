@@ -1,18 +1,37 @@
 package l2;
 
 public class Style {
-    private String  name;
-    private String books;
-    void  showInfo(){
-        System.out.println("Name: " + name);
-        System.out.println("Books: " + books);
+    private String name;
+    private String book;
+    private int availability;
+
+    public Style (String name, String book, int availability){
+        this.name=name;
+        this.book=book;
+        this.availability=availability;
     }
-    public static void main(String[] args) {
-        Style Style = new Style();
 
-        Style.name = "dispersed";
-        Style.books = "The Dragon Chronicles";
+    public String getName() {
+        return name;
+    }
 
-        Style.showInfo();
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBook() {
+        return book;
+    }
+
+    public void setBook(String book) {
+        this.book = book;
+    }
+
+    public int getAvailability() {
+        return availability;
+    }
+
+    public void setAvailability(int availability) {
+        this.availability = availability;
     }
 }

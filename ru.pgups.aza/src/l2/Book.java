@@ -1,39 +1,37 @@
 package l2;
 
 public class Book {
+    private String author;
     private String title;
-   private int pages;
+    private int page;
 
-    public Book() {
-        this.title = "Three Comrades";
-        this.pages = 480;
+    public Book (String author,String title,int page) {
+        this.author=author;
+        this.title=title;
+        this.page=page;
     }
 
-    public Book(int pages) {
-        this.title = "Crime and punishment";
-        this.pages = pages;
+    public String getAuthor() {
+        return author;
+    }
+    public void  setAuthor(){
+        this.author=author;
     }
 
-    public Book(String title, int pages) {
-        this.title = title;
-        this.pages = pages;
+    public String getTitle() {
+        return title;
     }
 
-    void showInfo() {
-        System.out.println("Title: " + title);
-        System.out.println("Pages: " + pages);
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
-    public static void main(String[] args) {
-
-        Book threeComrades = new Book();
-        threeComrades.showInfo();
-
-        Book crimeandPunishment = new Book(470);
-        crimeandPunishment.showInfo();
-
-        Book primer = new Book("primer", 96);
-        primer.showInfo();
+    public int getPage() {
+        return page;
     }
+
+    public void setPage(int page) {
+        this.page = page;
+    }
+
 }
-
