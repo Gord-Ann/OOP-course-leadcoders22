@@ -1,13 +1,13 @@
 package ru.pgups.khalanskaya;
 
-public class Safetysystem {
+public class SafetySystem {
     private String signaling;
 
     private int cameras;
 
     private int inspection;
 
-    public Safetysystem(){
+    public SafetySystem(){
         this.signaling = signaling;
         this.cameras = cameras;
         this.inspection = inspection;

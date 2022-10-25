@@ -1,13 +1,13 @@
 package ru.pgups.khalanskaya;
 
-public class Serviceclass {
+public class ServiceClass {
     private String economy;
 
     private int comfort;
 
     private int business;
 
-    public Serviceclass(){
+    public ServiceClass(){
         this.economy = economy;
         this.comfort = comfort;
         this.business = business;

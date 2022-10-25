@@ -33,13 +33,13 @@ public class Main {
         System.out.println(plane.getWeight());
         System.out.println();
 
-        Safetysystem safetysystem = new Safetysystem();
+        SafetySystem safetysystem = new SafetySystem();
         System.out.println(safetysystem.getSignaling());
         System.out.println(safetysystem.getCameras());
         System.out.println(safetysystem.getInspection());
         System.out.println();
 
-        Serviceclass serviceclass = new Serviceclass();
+        ServiceClass serviceclass = new ServiceClass();
         System.out.println(serviceclass.getEconomy());
         System.out.println(serviceclass.getComfort());
         System.out.println(serviceclass.getBusiness());
