@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class hotel {
+public class Hotel {
     public static void main(String[] argas) {
         System.out.println();
         Restaurant restaurant = new Restaurant("12", 12, 1500);

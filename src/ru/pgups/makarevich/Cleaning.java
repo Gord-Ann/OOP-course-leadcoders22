@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class cleaning {
+public class Cleaning {
 
     private String Admin;
 

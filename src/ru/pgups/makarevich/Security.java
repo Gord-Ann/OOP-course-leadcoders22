@@ -1,22 +1,22 @@
 package ru.pgups.makarevich;
 
-public class security {
-    private String Admin;
+public class Security {
+    private String admin;
 
     private int people;
 
     private int look;
 
-    public security(String Admin, int people, int look){
-        this.Admin = Admin;
+    public security(String admin, int people, int look){
+        this.admin = admin;
         this.people = people;
         this.look = look;
     }
 
-    public String getAdmin(){ return this.Admin; }
+    public String getadmin(){ return this.admin; }
 
-    public void setAdmin(String Admin) {
-        this.Admin = Admin;
+    public void setadmin(String admin) {
+        this.admin = admin;
     }
 
     public int getPeople() { return this.people; }

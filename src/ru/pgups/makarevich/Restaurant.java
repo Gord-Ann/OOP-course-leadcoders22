@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class restaurant {
+public class Restaurant {
 
     private String timeEat;
 

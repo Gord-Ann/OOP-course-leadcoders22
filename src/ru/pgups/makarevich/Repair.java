@@ -1,22 +1,22 @@
 package ru.pgups.makarevich;
 
-public class repair {
-    private String Admin;
+public class Repair {
+    private String admin;
 
     private int people;
 
     private String obor;
 
     public repair(String Admin, int people, String obor){
-        this.Admin = Admin;
+        this.admin = admin;
         this.people = people;
         this.obor = obor;
     }
 
-    public String getAdmin(){ return this.Admin; }
+    public String getadmin(){ return this.admin; }
 
-    public void setAdmin(String Admin) {
-        this.Admin = Admin;
+    public void setadmin(String admin) {
+        this.admin = admin;
     }
 
     public int getPeople() { return this.people; }

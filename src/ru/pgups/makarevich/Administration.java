@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class administration {
+public class Administration {
 
     private String Admin;
 

@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class laundry {    private String name;
+public class Laundry {    private String name;
 
     private int year;
 

@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class advertisement {
+public class Advertisement {
     private String Admin;
 
     private int people;

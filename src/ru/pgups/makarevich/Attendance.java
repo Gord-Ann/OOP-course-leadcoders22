@@ -1,6 +1,6 @@
 package ru.pgups.makarevich;
 
-public class attendance {
+public class Attendance {
     private String Name;
 
     private int number;

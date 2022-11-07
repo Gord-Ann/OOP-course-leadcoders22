@@ -1,22 +1,22 @@
 package ru.pgups.makarevich;
 
-public class staff {
-    private String Name;
+public class Staff {
+    private String name;
 
     private String rang;
 
     private int year;
 
-    public staff(String Name, String rang, int year){
-        this.Name = Name;
+    public staff(String name, String rang, int year){
+        this.name = name;
         this.rang = rang;
         this.year = year;
     }
 
-    public String getName(){ return this.Name; }
+    public String getname(){ return this.name; }
 
-    public void setName(String Name) {
-        this.Name = Name;
+    public void setname(String name) {
+        this.name = name;
     }
 
     public String getrang() { return this.rang; }
