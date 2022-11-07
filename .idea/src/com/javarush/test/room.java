@@ -1,36 +1,36 @@
 package com.javarush.test;
 
-public class Room {
-    private String name;
-    private String wifi ; //Наличие вайфая
-    private int theDate;  //Дата
+public class room {
+    private static String name;
+    private static String wifi ; //Наличие вайфая
+    private static int theDate;  //Дата
     private String Hotel;
-    int roomName;//Номер комнаты
+    static int roomName;//Номер комнаты
 
-    public Room(String wifi, int theDate, String name, String Hotel, int roomName) {
+    public room(String wifi, int theDate, String name, String Hotel, int roomName) {
         this.wifi = wifi;
         this.theDate = theDate;
         this.name = name;
         this.Hotel = Hotel;
         this.roomName = roomName;
     }
-    public Room() {
+    public room() {
     }
-    public String getName() {
+    public static String getName() {
         return name;
     }
     public void setName(String name) {
         this.name = name;
     }
 
-    public String getWifi() {
+    public static String getWifi() {
         return wifi;
     }
     public void setWifi(String wifi) {
         this.wifi = wifi;
     }
 
-    public int getTheDate(){
+    public static int getTheDate(){
         return theDate;
     }
     public void setYear(int year){
@@ -41,7 +41,7 @@ public class Room {
         }
 
     }
-    public int getroomName() {
+    public static int getroomName() {
         return roomName;
     }
     public void setroomName(int roomName) {
@@ -56,5 +56,3 @@ public class Room {
     }
 
 }
-
-
