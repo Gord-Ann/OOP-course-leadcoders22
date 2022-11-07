@@ -1,37 +1,37 @@
 package com.javarush.test;
 
-public class Hotels_Rating {
-    private int Reviews; //отзывы
-    private int Popularity;//популярность
-    private int Price; //Цена
-    private int Service; //Удобства
+public class hotelsRating {
+    private int reviews; //отзывы
+    private int popularity;//популярность
+    private int price; //Цена
+    private int service; //Удобства
 
-    public Hotels_Rating(int Reviews, int Popularity, int Price, int Service){
-        this.Reviews = Reviews;
-        this.Popularity = Popularity;
-        this.Price = Price;
-        this.Service = Service;
+    public hotelsRating(int reviews, int popularity, int price, int service){
+        this.reviews = reviews;
+        this.popularity = popularity;
+        this.price = price;
+        this.service = service;
 
     }
-    public Hotels_Rating(){
+    public hotelsRating(){
     }
     public int getReviews() {
-        return Reviews;
+        return reviews;
     }
     public void setReviews(int Reviews){
-        if (Reviews >= 0 && Reviews <= 5){
-            this.Reviews = Reviews;
+        if (reviews >= 0 && reviews <= 5){
+            this.reviews = Reviews;
         }else{
             System.out.println("Rating cannot be less than 0 or more than 5");
         }
 
     }
     public int getPopularity() {
-        return Popularity;
+        return popularity;
     }
     public void setPopularity(int Popularity){
-        if (Popularity >= 0 && Popularity <= 5){
-            this.Popularity = Popularity;
+        if (popularity >= 0 && popularity <= 5){
+            this.popularity = popularity;
         }else{
             System.out.println("Rating cannot be less than 0 or more than 5");
         }
@@ -39,11 +39,11 @@ public class Hotels_Rating {
     }
 
     public int getPrice() {
-        return Price;
+        return price;
     }
     public void setPrice(int Price){
-        if (Price >= 0 && Price <= 5){
-            this.Price = Price;
+        if (price >= 0 && price <= 5){
+            this.price = Price;
         }else{
             System.out.println("Rating cannot be less than 0 or more than 5");
         }
@@ -51,11 +51,11 @@ public class Hotels_Rating {
     }
 
     public int getService() {
-        return Service;
+        return service;
     }
     public void setService(int Service){
         if (Service >= 0 && Service <= 20){
-            this.Service = Service;
+            this.service = service;
         }else{
             System.out.println("Rating cannot be less than 0 or more than 20");
         }
