@@ -1,20 +1,18 @@
 package com.javarush.test;
 
-public class Rooms {
-
-        private static String addres;
-        private static String Room;
-        public Rooms(String addres, String Office){
+private static String addres;
+        private static String room;
+        public rooms(String addres, String Office){
             this.addres= addres;
-            Rooms.Room = Room;
+            rooms.room = room;
         }
-        public Rooms(){
+        public rooms(){
         }
         public static String getOffice(){
-            return Room;
+            return room;
         }
         public void setOffice(String Office){
-            this.Room = Office;
+            this.room = Office;
         }
         public static String getaddres(){
             return addres;
@@ -23,4 +21,5 @@ public class Rooms {
             this.addres = addres;
         }
     }
+
 
