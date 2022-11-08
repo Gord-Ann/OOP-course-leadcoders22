@@ -1,21 +1,21 @@
 package com.javarush.test;
-public class addressGuest {
-    private String City;
+public class AddressGuest {
+    private String city;
     private static String street;
     private static int houseNumber;
 
-    public addressGuest(String City, String street, int houseNumber){
-        this.City = City;
+    public AddressGuest(String City, String street, int houseNumber){
+        this.city = City;
         this.street = street;
         this.houseNumber = houseNumber;
     }
-    public addressGuest(){
+    public AddressGuest(){
     }
     public String getCity() {
-        return City;
+        return city;
     }
     public void setCity(String City) {
-        this.City = City;
+        this.city = City;
     }
     public static String getStreet() {
         return street;
