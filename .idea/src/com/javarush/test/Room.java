@@ -1,20 +1,20 @@
 package com.javarush.test;
 
-public class room {
+public class Room {
     private static String name;
     private static String wifi ; //Наличие вайфая
     private static int theDate;  //Дата
-    private String Hotel;
+    private String hotel;
     static int roomName;//Номер комнаты
 
-    public room(String wifi, int theDate, String name, String Hotel, int roomName) {
+    public Room(String wifi, int theDate, String name, String Hotel, int roomName) {
         this.wifi = wifi;
         this.theDate = theDate;
         this.name = name;
-        this.Hotel = Hotel;
+        this.hotel = Hotel;
         this.roomName = roomName;
     }
-    public room() {
+    public Room() {
     }
     public static String getName() {
         return name;
@@ -49,10 +49,11 @@ public class room {
 
     }
     public String getHotel() {
-        return Hotel;
+        return hotel;
     }
-    public void setAuthor(String Hotel) {
-        this.Hotel = Hotel;
+    public void setAuthor(String hotel) {
+        this.hotel = this.hotel;
     }
 
 }
+
