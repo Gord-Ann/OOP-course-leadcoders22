@@ -1,26 +1,25 @@
 package com.javarush.test;
-
-public class hotelsRating {
+public class HotelsRating {
     private int reviews; //отзывы
     private int popularity;//популярность
     private int price; //Цена
     private int service; //Удобства
 
-    public hotelsRating(int reviews, int popularity, int price, int service){
+    public HotelsRating(int reviews, int popularity, int price, int service){
         this.reviews = reviews;
         this.popularity = popularity;
         this.price = price;
         this.service = service;
 
     }
-    public hotelsRating(){
+    public HotelsRating(){
     }
     public int getReviews() {
         return reviews;
     }
-    public void setReviews(int Reviews){
+    public void setReviews(int reviews){
         if (reviews >= 0 && reviews <= 5){
-            this.reviews = Reviews;
+            this.reviews = reviews;
         }else{
             System.out.println("Rating cannot be less than 0 or more than 5");
         }
