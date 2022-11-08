@@ -1,17 +1,17 @@
 package com.javarush.test;
 
-public class printing {
+public class Printing {
     //Отель
     private int number; //Номер
     private int numberOfRooms; //Количество копий
-    private String Room;
+    private String room;
 
-    public printing(int Number, int NumberOfRooms, String Book) {
-        this.number = Number;
-        this.Room = Room;
-        this.numberOfRooms = NumberOfRooms;
+    public Printing(int number, int numberOfRooms, String book) {
+        this.number = number;
+        this.room = room;
+        this.numberOfRooms = numberOfRooms;
     }
-    public printing() {
+    public Printing() {
     }
     public int getNumber() {
         return number;
@@ -32,10 +32,10 @@ public class printing {
     }
 
     public String getRoom() {
-        return Room;
+        return room;
     }
     public void setRoom(String room) {
-        this.Room = Room;
+        this.room = this.room;
     }
 }
 
