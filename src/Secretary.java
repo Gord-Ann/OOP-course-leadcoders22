@@ -2,9 +2,9 @@ public class Secretary {
     private String name;
     private  int educationLevel;
 
-    public Secretary (String name, int education_level) {
+    public Secretary (String name, int educationLevel) {
         this.name = name;
-        this.educationLevel = education_level;
+        this.educationLevel = educationLevel;
     }
 
     public String getName() {

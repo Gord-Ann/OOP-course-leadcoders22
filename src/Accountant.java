@@ -1,12 +1,12 @@
 public class Accountant {
     private String name;
     private int stage;
-    private String education_level;
+    private String educationLevel;
 
-    public Accountant(String name, int stage, String education_level) {
+    public Accountant(String name, int stage, String educationLevel) {
         this.name = name;
         this.stage = stage;
-        this.education_level = education_level;
+        this.educationLevel = educationLevel;
     }
 
     public String getName() {
@@ -25,11 +25,11 @@ public class Accountant {
         this.stage = stage;
     }
 
-    public String getEducation_level() {
-        return education_level;
+    public String getEducationLevel() {
+        return educationLevel;
     }
 
-    public void setEducation_level(String education_level) {
-        this.education_level = education_level;
+    public void setEducationLevel(String educationLevel) {
+        this.educationLevel = educationLevel;
     }
 }
