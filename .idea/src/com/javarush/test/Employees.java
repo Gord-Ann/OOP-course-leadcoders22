@@ -1,14 +1,14 @@
 package com.javarush.test;
 
-public class employees {
+public class Employees {
         private String name;
         private Long phone;
 
-        public employees(String name, Long phone){
+        public Employees(String name, Long phone){
             this.name = name;
             this.phone = phone;
         }
-        public employees(){
+        public Employees(){
         }
         public String getName(){
             return name;
@@ -27,4 +27,5 @@ public class employees {
             }
         }
 }
+
 
