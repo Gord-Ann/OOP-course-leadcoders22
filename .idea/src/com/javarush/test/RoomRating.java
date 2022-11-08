@@ -1,19 +1,19 @@
 package com.javarush.test;
 
-public class roomRating {
+public class RoomRating {
     private int reviews; //отзывы
     private int popularity;//популярность
     private int numberOfRooms; //Количество комнат
     private int getNumberOfRoomsRooms;
 
-    public roomRating(int reviews, int popularity, int NumberOfRooms){
+    public RoomRating(int reviews, int popularity, int NumberOfRooms){
         this.reviews = reviews;
         this.popularity = popularity;
         this.numberOfRooms = numberOfRooms;
 
     }
 
-    public roomRating(){
+    public RoomRating(){
     }
 
     public int getReviews() {
@@ -42,8 +42,8 @@ public class roomRating {
     public int getNumberOfcopies() {
         return numberOfRooms;
     }
-    public void setNumber_of_rooms(int Number_of_rooms){
-        if (Number_of_rooms >= 0 && numberOfRooms <= 3){
+    public void setNumberOfRooms(int NumberOfRooms){
+        if (NumberOfRooms >= 0 && numberOfRooms <= 3){
             this.numberOfRooms = numberOfRooms;
         }else{
             System.out.println("Rating cannot be less than 0 or more than 3");
