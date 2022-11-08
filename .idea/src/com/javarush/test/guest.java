@@ -1,15 +1,15 @@
 package com.javarush.test;
 
-public class guest {
+public class Guest {
     //Постоялец
         private String name;
         private Long phone;
 
-        public guest(String name, Long phone){
+        public Guest(String name, Long phone){
             this.name = name;
             this.phone = phone;
         }
-        public guest(){
+        public Guest(){
         }
         public String getName(){
             return name;
