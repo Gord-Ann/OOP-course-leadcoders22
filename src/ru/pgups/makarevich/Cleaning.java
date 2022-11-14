@@ -2,22 +2,22 @@ package ru.pgups.makarevich;
 
 public class Cleaning {
 
-    private String Admin;
+    private String admin;
 
     private int people;
 
     private String time;
 
     public cleaning(String admin, int people, String time){
-        this.Admin = admin;
+        this.admin = admin;
         this.people = people;
         this.time = time;
     }
 
-    public String getAdmin(){ return this.Admin; }
+    public String getAdmin(){ return this.admin; }
 
     public void setAdmin(String admin) {
-        this.Admin = admin;
+        this.admin = admin;
     }
 
     public int getPeople() { return this.people; }

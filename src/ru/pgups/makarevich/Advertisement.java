@@ -1,22 +1,22 @@
 package ru.pgups.makarevich;
 
 public class Advertisement {
-    private String Admin;
+    private String admin;
 
     private int people;
 
     private String vid;
 
-    public advertisement(String Admin, int people, String vid){
-        this.Admin = Admin;
+    public advertisement(String admin, int people, String vid){
+        this.admin = admin;
         this.people = people;
         this.vid = vid;
     }
 
-    public String getAdmin(){ return this.Admin; }
+    public String getAdmin(){ return this.admin; }
 
-    public void setAdmin(String Admin) {
-        this.Admin = Admin;
+    public void setAdmin(String admin) {
+        this.admin = admin;
     }
 
     public int getPeople() { return this.people; }

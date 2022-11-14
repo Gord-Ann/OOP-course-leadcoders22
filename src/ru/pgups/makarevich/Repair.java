@@ -7,7 +7,7 @@ public class Repair {
 
     private String obor;
 
-    public repair(String Admin, int people, String obor){
+    public repair(String admin, int people, String obor){
         this.admin = admin;
         this.people = people;
         this.obor = obor;

@@ -2,22 +2,22 @@ package ru.pgups.makarevich;
 
 public class Administration {
 
-    private String Admin;
+    private String admin;
 
     private int people;
 
     private int high;
 
-    public administration(String Admin, int people, int high){
-        this.Admin = Admin;
+    public administration(String admin, int people, int high){
+        this.admin = admin;
         this.people = people;
         this.high = high;
     }
 
-    public String getAdmin(){ return this.Admin; }
+    public String getAdmin(){ return this.admin; }
 
-    public void setAdmin(String Admin) {
-        this.Admin = Admin;
+    public void setAdmin(String admin) {
+        this.admin = admin;
     }
 
     public int getPeople() { return this.people; }
