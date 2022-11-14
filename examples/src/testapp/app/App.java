@@ -1,5 +1,7 @@
-package testapp.model;
+package testapp.app;
 
+import testapp.model.FreightItem;
+import testapp.model.Order;
 import testapp.model.address.ArrivalAddress;
 import testapp.model.address.DepartureAddress;
 import testapp.model.person.Receiver;
