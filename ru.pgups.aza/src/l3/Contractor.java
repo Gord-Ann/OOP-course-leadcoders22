@@ -3,10 +3,10 @@ package l3;
 public abstract class Contractor {
     private String name;
     private String address;
-    private int phone;
+    private long phone;
     private String mail;
 
-    public Contractor(String name, String address, int phone, String mail){
+    public Contractor(String name, String address, long phone, String mail){
         this.name=name;
         this.address=address;
         this.phone=phone;
@@ -32,11 +32,11 @@ public abstract class Contractor {
         this.address = address;
     }
 
-    public int getPhone() {
+    public long getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(long phone) {
         this.phone = phone;
     }
 

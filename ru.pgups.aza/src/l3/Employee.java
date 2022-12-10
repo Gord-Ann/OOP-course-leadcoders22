@@ -12,7 +12,9 @@ public class Employee {
         this.number=number;
         this.mail=mail;
     }
-
+    public void display() {
+        System.out.println(this.name+ " "+ this.post + " " + this.number + " " + this.mail );
+    }
     public String getName() {
         return name;
     }
@@ -44,4 +46,5 @@ public class Employee {
     public void setMail(String mail) {
         this.mail = mail;
     }
+
 }
