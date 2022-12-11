@@ -32,6 +32,9 @@ public class Order {
         this.totalWeight = totalWeight;
         this.totalPrice = totalPrice;
     }
+    
+    public Order() {
+    }
 
     public Integer getNumber() {
         return number;
@@ -39,9 +42,6 @@ public class Order {
 
     public void setNumber(Integer number) {
         this.number = number;
-    }
-
-    public Order() {
     }
 
     public Receiver getReceiver() {
