@@ -1,8 +1,5 @@
 package lab3;
 
-
-
-
 class Member extends User {
 
     public Member(String lastname, String firstname, String patronymic, String email) {

@@ -19,11 +19,9 @@ class Conference extends Event{
 
     @Override
     public void display(){
-        super.display();
+        System.out.println (this.name + " " + this.date + " " + this.place + " " + this.seats+ " ");
         System.out.println("Members: ");
         for (Member member : membersconf) {
-            //System.out.println("Member: ");
-            // System.out.println(member.firstname);
             member.display();
         }
     }
