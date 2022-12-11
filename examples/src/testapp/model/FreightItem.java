@@ -72,9 +72,9 @@ public class FreightItem {
         this.hasDiscount = hasDiscount;
     }
 
-    public void getPriceWithDiscount(Double price, Integer discount, boolean hasDiscount) {
+    public void getPriceWithDiscount(Integer discount, boolean hasDiscount) {
         if (hasDiscount) {
-            this.price = price - (price * discount / 100);
+            this.totalPriceWithDiscount = this.price - (this.price * discount / 100);
         } else {
             System.out.println("Товар продается без скидки");
         }
