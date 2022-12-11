@@ -7,7 +7,7 @@ public class Admin extends Person {
     }
 
     @Override
-    public void setPerson() {
+    public void setPerson(Person person) {
 
     }
 

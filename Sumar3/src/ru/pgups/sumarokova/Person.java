@@ -8,7 +8,7 @@ abstract class Person {
         this.phone=phone;
     }
     public Person() {}
-    public void person(){
+    public void infoPerson(){
         System.out.println("Name: "+this.name+", phone: "+this.phone);
     }
     public String getName() {
@@ -24,5 +24,7 @@ abstract class Person {
         this.phone = phone;
     }
 
-    public abstract void setPerson();
+    public void setPerson(Person person){
+        this.infoPerson();
+    }
 }

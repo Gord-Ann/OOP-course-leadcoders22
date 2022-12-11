@@ -3,29 +3,34 @@ package ru.pgups.sumarokova;
 import java.util.Scanner;
 
 public class Courier extends Person{
-    private int numberCourier;
-    public Courier(String name, String phone, int numberCourier){
+    private int number;
+    public Courier(String name, String phone, int number){
         super(name, phone);
-        this.numberCourier=numberCourier;
+        this.number=number;
     }
 
     public Courier() {}
 
     @Override
-    public void setPerson() {
-
+    public void setPerson(Person person) {
     }
 
-    public void setNumberCourier() {
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+    public int inputNumber(){
         System.out.println("number: ");
         Scanner scanner = new Scanner(System.in);
-        int numberCourier = scanner.nextInt();
-        System.out.println("number courier: " + numberCourier);
-
+        int number = scanner.nextInt();
+        System.out.println("number courier: " + number);
+        return number;
     }
 
-    public int getNumberCourier() {
-        return numberCourier;
+    public void setPerson() {
     }
 
 }
