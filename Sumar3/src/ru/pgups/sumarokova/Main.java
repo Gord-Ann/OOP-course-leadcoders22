@@ -5,19 +5,18 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
-        Admin admin1 = new Admin("dima", "987547647676");
+        Admin admin1 = new Admin("dima", "98754764766");
         System.out.println("name admin: "+ admin1.getName());
         System.out.println("phone admin: "+ admin1.getPhone());
 
+
         System.out.println(" ");
-        Courier courier1 = new Courier();
+        Courier courier1 = new Courier("mama","86642232454",1);
         courier1.inputNumber();
-        courier1.setPerson();
-        Person person1 = new Person("momo", "9865445768") {
-            @Override
-            public void setPerson(Person person) {
-            }};
-        person1.infoPerson();
+        courier1.infoPerson();
+        System.out.println("info admin: ");
+        Admin admin2 = new Admin("momo", "9865445768") {};
+        admin2.infoPerson();
         Scanner scanner = new Scanner (System.in);
         Customer customer1=new Customer();
         System.out.println("enter the data");

@@ -18,7 +18,8 @@ public class Order {
         this.nameCustomer = nameCustomer;
         this.numberCourier = numberCourier;
     }
-
+    public Order() {
+    }
     public Order(int number) {
         this.numberOrder = number;
     }
@@ -85,7 +86,6 @@ public class Order {
     public Courier getNumberCourier() {
         return numberCourier;
     }
-    public Order() {
-}}
+    }
 
 

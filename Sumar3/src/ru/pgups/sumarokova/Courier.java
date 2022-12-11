@@ -11,10 +11,6 @@ public class Courier extends Person{
 
     public Courier() {}
 
-    @Override
-    public void setPerson(Person person) {
-    }
-
     public int getNumber() {
         return number;
     }
@@ -22,6 +18,7 @@ public class Courier extends Person{
     public void setNumber(int number) {
         this.number = number;
     }
+
     public int inputNumber(){
         System.out.println("number: ");
         Scanner scanner = new Scanner(System.in);
@@ -30,7 +27,6 @@ public class Courier extends Person{
         return number;
     }
 
-    public void setPerson() {
-    }
+
 
 }

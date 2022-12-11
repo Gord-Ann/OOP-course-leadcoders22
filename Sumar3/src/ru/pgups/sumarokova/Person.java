@@ -24,7 +24,5 @@ abstract class Person {
         this.phone = phone;
     }
 
-    public void setPerson(Person person){
-        this.infoPerson();
-    }
+
 }
