@@ -55,6 +55,5 @@ public abstract class Event {
 
 
 
-    public void display() {
-    }
+    public abstract void display();
 }
