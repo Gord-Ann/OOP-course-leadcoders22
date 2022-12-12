@@ -13,7 +13,7 @@ public abstract class Contractor {
         this.mail=mail;
     }
     public void display() {
-        System.out.println(this.name + " "+ this.address + " " + this.phone + " " + this.mail );
+        System.out.println(this.name + " "+"Address:"+ this.address + " " +"Contact:"+ "phone:"+this.phone + " " +"mail:"+ this.mail );
     }
 
     public String getName() {
