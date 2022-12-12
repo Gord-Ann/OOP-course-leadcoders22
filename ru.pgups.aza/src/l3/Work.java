@@ -8,15 +8,17 @@ package l3;
         this.view= view;
         this.cost=cost;
     }
-
+    public void display(){
+        System.out.println("View:"+this.view +" "+ "Cost:"+ this.cost+" ");
+      }
 
     public String getView() {
         return view;
     }
-
 
     public int getCost() {
         return cost;
     }
 
 }
+

@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Company extends Contractor {
 
-     Employee employee;
-
-
     public Company(String name, String address, long phone, String mail) {
         super(name, address, phone, mail);
     }
