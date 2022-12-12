@@ -9,7 +9,7 @@ public class Order {
     private Courier numberCourier;
     private Product nameProduct;
 
-    public Order(int numberOrder, String date, String time, String price, Customer address, Customer nameCustomer, Courier numberCourier) {
+    public Order(int numberOrder, String date, String time, String price, Customer address, Customer nameCustomer, Courier numberCourier, Product nameProduct) {
         this.numberOrder = numberOrder;
         this.date = date;
         this.time = time;
@@ -17,6 +17,7 @@ public class Order {
         this.address = address;
         this.nameCustomer = nameCustomer;
         this.numberCourier = numberCourier;
+        this.nameProduct=nameProduct;
     }
     public Order() {
     }

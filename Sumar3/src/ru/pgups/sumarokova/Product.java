@@ -10,21 +10,15 @@ public class Product {
         this.weight=weight;
         this.price=price;
     }
-
-    public Product() {
-
-    }
-
     public int getPrice() {return price;}
 
-    public String getName(String name) {
+    public String getName() {
         return name;
     }
 
     public int getWeight() {
-        return weight;
+         return weight;
     }
-
     public void setPrice(int price) {
         this.price = price;
     }
@@ -35,6 +29,5 @@ public class Product {
     public void setWeight(int weight) {
         this.weight = weight;
     }
-
-
+    public Product() {    }
 }

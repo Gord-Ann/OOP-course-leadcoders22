@@ -8,17 +8,12 @@ public class Courier extends Person{
         super(name, phone);
         this.number=number;
     }
-
-    public Courier() {}
-
     public int getNumber() {
         return number;
     }
-
     public void setNumber(int number) {
         this.number = number;
     }
-
     public int inputNumber(){
         System.out.println("number: ");
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +21,9 @@ public class Courier extends Person{
         System.out.println("number courier: " + number);
         return number;
     }
-
-
-
+    public Courier() {}
+    @Override
+    public void getInfo() {
+        System.out.println("name: "+this.name+" phone: "+this.phone);
+    }
 }

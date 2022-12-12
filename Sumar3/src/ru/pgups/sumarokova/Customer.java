@@ -15,6 +15,9 @@ public class Customer extends Person{
         this.address = address;
     }
 
-
+    @Override
+    public void getInfo() {
+        System.out.println("name: "+ this.name+" phone "+this.phone+" address "+this.address);
+    }
 }
 

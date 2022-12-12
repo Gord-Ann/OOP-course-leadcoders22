@@ -1,16 +1,14 @@
 package ru.pgups.sumarokova;
 
 abstract class Person {
-    private String name;
-    private String phone;
+    public String name;
+    public String phone;
     public Person(String name, String phone){
         this.name=name;
         this.phone=phone;
     }
     public Person() {}
-    public void infoPerson(){
-        System.out.println("Name: "+this.name+", phone: "+this.phone);
-    }
+
     public String getName() {
         return name;
     }
@@ -23,6 +21,9 @@ abstract class Person {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
+    public void infoPerson(){
+        System.out.println("Name: "+this.name+", phone: "+this.phone);
+    }
+    public abstract void getInfo();
 
 }

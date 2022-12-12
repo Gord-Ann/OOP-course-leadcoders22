@@ -6,7 +6,8 @@ public class Admin extends Person {
 
         super(name, phone);
     }
-
-
-
+    @Override
+    public void getInfo() {
+        System.out.println(" name: "+this.name+" phone: "+this.phone);
+    }
 }
