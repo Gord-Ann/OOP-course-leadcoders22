@@ -2,7 +2,7 @@ package ru.pgups.kyalina;
 
 public class Drive {
 
-    private String experience;
+    private String experience ;
     private int salary;
     private int name;
 
@@ -11,6 +11,11 @@ public class Drive {
         this.salary = salary;
         this.name = name;
     }
+
+    public Drive() {
+
+    }
+
     public String getExperience() {return this.experience;}
     public void setExperience (String experience) {
         this.experience = experience;

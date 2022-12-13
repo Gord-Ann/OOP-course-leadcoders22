@@ -1,9 +1,6 @@
 package ru.pgups.kyalina;
 
 public class Ticket {
-}
-
-class  ticket {
 
     private String number;
 
@@ -11,11 +8,16 @@ class  ticket {
 
     private int time;
 
-    public void Ticket(String number, int date, int time){
-        this.number= number;
+    public Ticket(String number, int date, int time){
+        this.number = number;
         this.date = date;
         this.time = time;
     }
+
+    public Ticket() {
+
+    }
+
     public String getNumber(){return  this.number;}
     public void setNumber(String number){
         this.number = number;
@@ -29,3 +31,5 @@ class  ticket {
         this.time = time;
     }
 }
+
+

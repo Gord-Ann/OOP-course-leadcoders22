@@ -2,7 +2,7 @@ package ru.pgups.kyalina;
 
 public class Payment {
 
-    private String amount;
+    private String amount ;
     private int date;
     private int paymentId ;
 
@@ -11,6 +11,11 @@ public class Payment {
         this.date = date;
         this.paymentId = paymentId;
     }
+
+    public Payment() {
+
+    }
+
     public String getcarAmount() {return this.amount;}
     public void setAmount (String amount) {
         this.amount = amount;

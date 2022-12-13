@@ -3,7 +3,7 @@ package ru.pgups.kyalina;
 public class Orders {
 
 
-    private String number;
+    private String number ;
 
     private int date;
 
@@ -14,6 +14,11 @@ public class Orders {
         this.date = date;
         this.time = time;
     }
+
+    public Orders() {
+
+    }
+
     public String getNumber(){return  this.number;}
     public void setNumber(String number){
         this.number = number;

@@ -3,7 +3,7 @@ package ru.pgups.kyalina;
 public class Booking {
 
 
-    private String bookId;
+    private String bookId ;
     private int name;
     private int source;
 
@@ -12,6 +12,11 @@ public class Booking {
         this.name = name;
         this.source = source;
     }
+
+    public Booking() {
+
+    }
+
     public String getbookId() {return this.bookId;}
     public void setbookId (String bookId) {
         this.bookId = bookId;

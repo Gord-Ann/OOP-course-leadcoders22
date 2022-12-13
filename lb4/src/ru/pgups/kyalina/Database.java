@@ -5,13 +5,18 @@ public class Database {
 
     private String cell;
     private int column;
-    private int information;
+    private int information ;
 
     public Database(String cell, int column, int information ) {
         this.cell = cell;
         this.column = column;
         this.information = information;
     }
+
+    public Database() {
+
+    }
+
     public String getCell() {return this.cell;}
     public void setCell (String cell) {
         this.cell = cell;

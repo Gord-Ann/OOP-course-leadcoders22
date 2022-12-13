@@ -3,7 +3,7 @@ package ru.pgups.kyalina;
 public class Feedback {
 
 
-    private String content;
+    private String content ;
     private int userId;
     private int feedbackId;
 
@@ -12,6 +12,11 @@ public class Feedback {
         this.userId = userId;
         this.feedbackId = feedbackId;
     }
+
+    public Feedback() {
+
+    }
+
     public String getcarContent() {return this.content;}
     public void setContent (String content) {
         this.content = content;

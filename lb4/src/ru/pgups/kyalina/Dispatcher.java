@@ -3,7 +3,7 @@ package ru.pgups.kyalina;
 public class Dispatcher {
 
 
-private String experience;
+private String experience ;
     private int salary;
     private int name;
 
@@ -12,6 +12,11 @@ private String experience;
         this.salary = salary;
         this.name = name;
     }
+
+    public Dispatcher() {
+
+    }
+
     public String getExperience() {return this.experience;}
     public void setExperience (String experience) {
         this.experience = experience;

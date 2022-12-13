@@ -1,19 +1,24 @@
 package ru.pgups.kyalina;
 
-public class Customers {
+public class Customer {
 
 
     private String name;
 
-    private int rating;
+    private int rating ;
 
     private int address;
 
-    public Customers(String name, int rating, int address){
+    public Customer(String name, int rating, int address){
         this.name = name;
         this.rating = rating;
         this.address = address;
     }
+
+    public Customer() {
+
+    }
+
     public String getName() {return  this.name;}
     public void setName (String name){
         this.name = name;
