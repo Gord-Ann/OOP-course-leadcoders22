@@ -13,7 +13,7 @@ public class Database {
         this.information = information;
     }
 
-    public Database() {
+    public Database()  {
 
     }
 

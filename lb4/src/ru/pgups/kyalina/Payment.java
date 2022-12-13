@@ -12,7 +12,7 @@ public class Payment {
         this.paymentId = paymentId;
     }
 
-    public Payment() {
+    public Payment()  {
 
     }
 

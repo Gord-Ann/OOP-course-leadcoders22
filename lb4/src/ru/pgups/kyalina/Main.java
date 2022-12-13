@@ -49,7 +49,7 @@ public class Main {
         Payment payment = new Payment();
         System.out.println(payment.getcarAmount());
         System.out.println(payment.getDate());
-        System.out.println(payment.getpaymentId());
+        System.out.println(payment.getpaymentId()) ;
         System.out.println();
 
         Ticket ticket = new Ticket();

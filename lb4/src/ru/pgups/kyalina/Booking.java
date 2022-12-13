@@ -3,7 +3,7 @@ package ru.pgups.kyalina;
 public class Booking {
 
 
-    private String bookId ;
+    private String bookId;
     private int name;
     private int source;
 
