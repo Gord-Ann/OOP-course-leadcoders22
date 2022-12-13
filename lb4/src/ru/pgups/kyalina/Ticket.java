@@ -5,9 +5,9 @@ public class Ticket {
 
 class  ticket {
 
-    private String number ;
+    private String number;
 
-    private int date ;
+    private int date;
 
     private int time;
 

@@ -2,7 +2,7 @@ package ru.pgups.kyalina;
 
 public class Drive {
 
-    private String experience ;
+    private String experience;
     private int salary;
     private int name;
 

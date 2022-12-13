@@ -5,7 +5,7 @@ public class Customers {
 
     private String name;
 
-    private int rating ;
+    private int rating;
 
     private int address;
 

@@ -2,7 +2,7 @@ package ru.pgups.kyalina;
 
 public class Payment {
 
-    private String amount ;
+    private String amount;
     private int date;
     private int paymentId ;
 

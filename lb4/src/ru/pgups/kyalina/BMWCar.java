@@ -1,6 +1,6 @@
 package ru.pgups.kyalina;
 
-public class BMWCar extends Car {
+public class BMWCar extends Car{
 
     private String color;
     private String model;
