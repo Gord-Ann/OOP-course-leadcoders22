@@ -9,7 +9,8 @@ package l3;
         this.cost=cost;
     }
     public void display(){
-        System.out.println("View:"+this.view +" "+ "Cost:"+ this.cost+" ");
+        System.out.println("Type of work:"+this.view+"") ;
+        System.out.println("Cost:"+ this.cost+" ");
       }
 
     public String getView() {

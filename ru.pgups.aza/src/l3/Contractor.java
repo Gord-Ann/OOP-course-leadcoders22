@@ -1,21 +1,19 @@
 package l3;
 
 public abstract class Contractor {
-    private String name;
-    private String address;
-    private long phone;
-    private String mail;
+    protected String name;
+    protected String address;
+    protected long phone;
+    protected String mail;
 
-    public Contractor(String name, String address, long phone, String mail){
-        this.name=name;
-        this.address=address;
-        this.phone=phone;
-        this.mail=mail;
+    public Contractor(String name, String address, long phone, String mail) {
+        this.name = name;
+        this.address = address;
+        this.phone = phone;
+        this.mail = mail;
     }
-    public void display() {
-        System.out.println(this.name + " "+"Address:"+ this.address + " " +"Contact:"+ "phone:"+this.phone + " " +"mail:"+ this.mail );
-    }
-
+     public Contractor(){
+      }
     public String getName() {
         return name;
     }
@@ -47,4 +45,6 @@ public abstract class Contractor {
     public void setMail(String mail) {
         this.mail = mail;
     }
+
+    public abstract void display();
 }

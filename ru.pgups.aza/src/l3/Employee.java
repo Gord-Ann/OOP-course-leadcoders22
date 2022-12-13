@@ -13,8 +13,8 @@ public class Employee {
         this.mail=mail;
     }
     public void display() {
-        System.out.println("Employee:"+ this.name+ " "+ this.post + " " + "contact:"+ "phone:"+this.number + " " +"mail:"+ this.mail );
-
+        System.out.println("Employee:"+ this.name+ " "+ this.post );
+        System.out.println("contact:"+ "phone:"+this.number + " " +"mail:"+ this.mail+ " ");
     }
     public String getName() {
         return name;
