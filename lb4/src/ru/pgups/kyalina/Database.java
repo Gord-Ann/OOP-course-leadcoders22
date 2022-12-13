@@ -5,7 +5,7 @@ public class Database {
 
     private String cell;
     private int column;
-    private int information;
+    private int information ;
 
     public Database(String cell, int column, int information ) {
         this.cell = cell;

@@ -2,9 +2,9 @@ package ru.pgups.kyalina;
 
 public class Payment {
 
-    private String amount;
+    private String amount ;
     private int date;
-    private int paymentId;
+    private int paymentId ;
 
     public Payment(String amount, int date, int paymentId ) {
         this.amount = amount;

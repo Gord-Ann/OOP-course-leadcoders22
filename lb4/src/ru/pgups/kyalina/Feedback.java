@@ -3,7 +3,7 @@ package ru.pgups.kyalina;
 public class Feedback {
 
 
-    private String content;
+    private String content ;
     private int userId;
     private int feedbackId;
 

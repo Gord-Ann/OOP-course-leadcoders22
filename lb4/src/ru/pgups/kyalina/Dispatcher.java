@@ -3,7 +3,7 @@ package ru.pgups.kyalina;
 public class Dispatcher {
 
 
-private String experience;
+private String experience ;
     private int salary;
     private int name;
 

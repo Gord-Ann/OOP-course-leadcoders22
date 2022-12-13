@@ -3,7 +3,7 @@ package ru.pgups.kyalina;
 public class Orders {
 
 
-    private String number;
+    private String number ;
 
     private int date;
 
