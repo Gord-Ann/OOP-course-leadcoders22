@@ -6,7 +6,7 @@ public class Driver extends Person {
 
     public Driver(String firstName, String lastName, String address, String salary) {
         super(firstName, lastName, address);
-        this.salary = salary;
+        this.salary = salary ;
     }
 
     public void display() {

@@ -10,7 +10,7 @@ public abstract class Car {
         this.number = number;
         this.year = year;
     }
-    public void display(){
+    public void display() {
         System.out.println(this.model +" " + this.number);
         System.out.println("Year:" + this.year);
     }

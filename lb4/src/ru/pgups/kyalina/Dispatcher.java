@@ -7,7 +7,7 @@ public class Dispatcher extends Person {
         super(firstName, lastName, address);
         this.experience = experience;
     }
-    public void display(){
+    public void display() {
         super.display();
         System.out.println("Experience: " + this.experience);
     }

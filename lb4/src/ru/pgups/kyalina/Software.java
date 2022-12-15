@@ -12,8 +12,4 @@ public abstract class Software {
         this.compilers = compilers;
     }
 
-    public void display() {
-        System.out.println(this.interfase +" " + this.assemblers);
-        System.out.println("Compilers:" + this.compilers);
-    }
 }
