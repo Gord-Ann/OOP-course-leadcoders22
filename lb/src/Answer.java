@@ -22,7 +22,7 @@ public class Answer extends Problem {
         destination = newDestination;
     }
 
-    public void display() {
+    public void send() {
         System.out.println("Response to a request: " + getRequestNumber());
         System.out.println("Topic: " + getTypeOfProblem());
         System.out.println("Answer: " + this.message);

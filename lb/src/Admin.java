@@ -8,8 +8,8 @@ class Admin extends NewUser {
     }
 
     @Override
-    public void display() {
-        super.display();
+    public void create() {
+        super.create();
         System.out.println("Address: " + this.address);
     }
 }

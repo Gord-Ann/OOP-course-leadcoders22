@@ -10,7 +10,7 @@ public class NewUser extends Person {
     }
 
 
-    public void display() {
+    public void create() {
         System.out.println("Surname: " + getSurname());
         System.out.println("Name: "+ getName());
         System.out.println("Email: " + getEmail());

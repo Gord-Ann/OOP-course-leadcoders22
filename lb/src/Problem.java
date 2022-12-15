@@ -8,6 +8,7 @@ public abstract class Problem {
         this.typeOfProblem = typeOfProblem;
         this.requestNumber = requestNumber;
     }
+    public abstract void send();
     public  String getTypeOfProblem(){
         return typeOfProblem;
     }

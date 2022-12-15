@@ -9,7 +9,8 @@ public class User extends NewUser {
     }
 
     @Override
-    public void display() {
+
+    public void create() {
         System.out.println("Login: " + getLogin());
         System.out.println("Password: " + getPassword());
         System.out.println("Number Of Hits: " + this.numberOfHits);

@@ -3,17 +3,17 @@
 
          NewUser viktoria = new NewUser("Lepeshkina", "Vikroria", "vv77@mail.ru", "Viktoria77", 123123);
          System.out.println("New User");
-         viktoria.display();
+         viktoria.create();
 
          User user= new User("Lepeshkina","Viktoria" , "vv77@mail.ru", "Viktoria77", 123123, 1);
          System.out.println("");
          System.out.println("Registered user");
-         user.display();
+         user.create();
 
          Admin cityAdministration = new Admin("Petrov", "Bladimir", "cityadmin@mail.ru", "Nevsky Avenue 7", "cityAdministration",147147);
          System.out.println("");
          System.out.println("City administration");
-         cityAdministration.display();
+         cityAdministration.create();
 
 
          ProblemMessage ecologicalProblem = new ProblemMessage( "Ecological problem", "3024x4032", "Moskovsky Avenue 7","A lot of garbage. Pay attention to this issue");
@@ -23,7 +23,7 @@
 
          Answer answer = new Answer(1, "Ecological problem", "Thank you for the referral. We will try to resolve this issue as soon as possible", "Viktoria77");
          System.out.println("");
-         answer.display();
+         answer.send();
 
 
 
