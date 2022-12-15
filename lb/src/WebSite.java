@@ -1,17 +1,16 @@
  class WebSite {
      public static void main(String args[]) {
 
-         UnregisteredUser viktoria = new UnregisteredUser("Lepeshkina", "Viktoria", "victory@mail.ru", "Viktoria77", 123123);
-         System.out.println("Unregistered user");
+         NewUser viktoria = new NewUser("Lepeshkina", "Vikroria", "vv77@mail.ru", "Viktoria77", 123123);
+         System.out.println("New User");
          viktoria.display();
 
-         User user= new User("Viktoria77", 123123, 3);
-         System.out.println(viktoria.getUser());
+         User user= new User("Lepeshkina","Viktoria" , "vv77@mail.ru", "Viktoria77", 123123, 1);
          System.out.println("");
          System.out.println("Registered user");
          user.display();
 
-         Admin cityAdministration = new Admin("cityAdministration", 141414, "Nevsky Avenue 5", "admincity@mail.ru");
+         Admin cityAdministration = new Admin("Petrov", "Bladimir", "cityadmin@mail.ru", "Nevsky Avenue 7", "cityAdministration",147147);
          System.out.println("");
          System.out.println("City administration");
          cityAdministration.display();
@@ -22,11 +21,11 @@
          System.out.println("Problem message");
          ecologicalProblem.display();
 
-         Answer answer = new Answer(001, "Ecological problem", "Thank you for the referral. We will try to resolve this issue as soon sa possible" );
-         System.out.println(ecologicalProblem.getAnswer());
+         Answer answer = new Answer(1, "Ecological problem", "Thank you for the referral. We will try to resolve this issue as soon as possible", "Viktoria77");
          System.out.println("");
-         System.out.println("Response to a request");
          answer.display();
+
+
 
 
      }
