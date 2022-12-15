@@ -1,34 +1,17 @@
 package ru.pgups.kyalina;
 
-public class Customer {
+public class Customer extends Person {
 
-
-    private String name;
-
-    private int rating ;
-
-    private int address;
-
-    public Customer(String name, int rating, int address){
-        this.name = name;
-        this.rating = rating;
-        this.address = address;
+    private String bankAccountNumber;
+    public Customer(String firstName, String lastName, String address, String bankAccountNumber) {
+        super(firstName, lastName, address);
+        this.bankAccountNumber = bankAccountNumber;
     }
 
-    public Customer(){
 
-    }
 
-    public String getName() {return  this.name;}
-    public void setName (String name){
-        this.name = name;
-    }
-    public int getRating(){return this.rating;}
-    public void setRating(int rating){
-        this.rating = rating;
-    }
-    public int getAddress(){return this.address;}
-    public void setAddress(int address){
-        this.address = address;
+    public void display(){
+        super.display();
+        System.out.println("Bank account number: " + this.bankAccountNumber);
     }
 }

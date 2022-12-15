@@ -2,18 +2,18 @@ package ru.pgups.kyalina;
 
 public abstract class Car {
     protected String model;
-    protected int number;
-    public Car(String model, int number){
+    protected String number;
+    protected String year;
+
+    public Car(String model, String number, String year){
         this.model = model;
         this.number = number;
-
-
+        this.year = year;
+    }
+    public void display(){
+        System.out.println(this.model +" " + this.number);
+        System.out.println("Year:" + this.year);
     }
 
-    public Car() {
-        System.out.println("Model" + this.model);
-        System.out.println("Number" + this.number);
+}
 
-    }
-
-    abstract void run() ; {}  }

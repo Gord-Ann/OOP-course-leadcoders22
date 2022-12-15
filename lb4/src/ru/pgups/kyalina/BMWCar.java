@@ -1,27 +1,15 @@
 package ru.pgups.kyalina;
 
 public class BMWCar extends Car  {
-
-    private String color;
-    private String model;
-
-    public BMWCar(String Model, int number, String color, String model) {
-        super(model, number);
-        this.color = color;
-        this.model = model;
+    private String country;
+    public BMWCar(String model, String number, String year, String country) {
+        super(model, number, year);
+        this.country = country;
     }
-
-    public BMWCar() {
-        super();
-
-    }
-
-    @Override
-    void run() {
-        run();
-        System.out.println("Color:" + this.color);
-        System.out.println("Model:" + this.model);
-    }
+     public void display() {
+        super.display();
+        System.out.println("Country: " + this.country);
+     }
 }
 
 

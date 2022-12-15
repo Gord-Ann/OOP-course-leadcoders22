@@ -1,32 +1,16 @@
 package ru.pgups.kyalina;
 
-public class Database {
+public class Database extends  Software{
+    private String table;
 
-
-    private String cell;
-    private int column;
-    private int information ;
-
-    public Database(String cell, int column, int information ) {
-        this.cell = cell;
-        this.column = column;
-        this.information = information;
+    public Database(String interfase, String assemblers, String compilers, String table) {
+        super(interfase, assemblers, compilers);
+        this.table = table;
     }
+    public void display(){
+        super.display();
+        System.out.println("Table: " + this.table);
 
-    public Database()  {
 
-    }
-
-    public String getCell() {return this.cell;}
-    public void setCell (String cell) {
-        this.cell = cell;
-    }
-    public int getColumn() {return this.column;}
-    public void setColumn(int column) {
-        this.column = column;
-    }
-    public int getInformation(){return this.information;}
-    public void setInformation(int information) {
-        this.information = information;
     }
 }

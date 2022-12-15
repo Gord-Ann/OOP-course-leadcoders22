@@ -1,33 +1,16 @@
 package ru.pgups.kyalina;
 
-public class Dispatcher {
+public class Dispatcher extends Person {
 
-
-private String experience ;
-    private int salary;
-    private int name;
-
-    public Dispatcher(String experience, int salary, int name) {
-        this.experience = experience;
-        this.salary = salary;
-        this.name = name;
-    }
-
-    public Dispatcher()  {
-
-    }
-
-    public String getExperience() {return this.experience;}
-    public void setExperience (String experience) {
+    private String experience;
+    public Dispatcher(String firstName, String lastName, String address, String experience) {
+        super(firstName, lastName, address);
         this.experience = experience;
     }
-    public int getSalary() {return this.salary;}
-    public void setSalary(int salary) {
-        this.salary = salary;
+    public void display(){
+        super.display();
+        System.out.println("Experience: " + this.experience);
     }
-    public int getName(){return this.name;}
-    public void setName(int name) {
-        this.name = name;
-    }
+
 }
 
