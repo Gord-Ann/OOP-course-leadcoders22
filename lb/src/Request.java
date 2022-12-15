@@ -1,4 +1,4 @@
- class Request {
+ public class Request {
     private String topic;
 
 
