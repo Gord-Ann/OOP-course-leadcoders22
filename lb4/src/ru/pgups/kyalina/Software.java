@@ -11,5 +11,9 @@ public abstract class Software {
         this.assemblers = assemblers;
         this.compilers = compilers;
     }
-
+    public abstract void menu();
+    public void run() {
+        System.out.println("");
+    }
 }
+

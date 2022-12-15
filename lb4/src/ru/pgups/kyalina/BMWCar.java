@@ -6,11 +6,12 @@ public class BMWCar extends Car {
         super(model, number, year);
         this.country = country;
     }
-     public void display() {
-        super.display();
-        System.out.println("Country: " + this.country);
-     }
+    public void mileage() {
+        System.out.println("");
+    }
 }
+
+
 
 
 

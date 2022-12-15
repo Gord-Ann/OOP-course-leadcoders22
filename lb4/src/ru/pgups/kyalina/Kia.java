@@ -9,8 +9,9 @@ public class Kia extends Car{
         this.engine = engine;
 
     }
-    public void display() {
-        super.display();
-        System.out.println("Engine: " + this.engine);
+
+    public void mileage() {
+        System.out.println("");
     }
-}
+
+    }

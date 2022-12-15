@@ -5,15 +5,19 @@ public abstract class Car {
     protected String number;
     protected String year;
 
-    public Car(String model, String number, String year){
+    public  Car(String model, String number, String year){
         this.model = model;
         this.number = number;
         this.year = year;
+
+
     }
-    public void display() {
-        System.out.println(this.model +" " + this.number);
-        System.out.println("Year:" + this.year);
+    public abstract void mileage();
+    public void run() {
+        System.out.println("");
     }
+
+
 
 }
 

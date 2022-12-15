@@ -7,10 +7,15 @@ public class Database extends  Software{
         super(interfase, assemblers, compilers);
         this.table = table;
     }
-    public void display() {
-        super.display();
-        System.out.println("Table: " + this.table);
 
+    @Override
+    public void menu() {
 
     }
+
+    public void run() {
+        System.out.println("");
+    }
 }
+
+
