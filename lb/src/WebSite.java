@@ -15,17 +15,24 @@
          System.out.println("City administration");
          cityAdministration.create();
 
-
-         ProblemMessage ecologicalProblem = new ProblemMessage( 1, "Ecological problem", "3024x4032","Moskovsky Avenue 7","A lot of garbage. Pay attention to this issue" );
+         ProblemMessage ecologicalProblem = new ProblemMessage( "3024x4032", "Moskovsky Avenue 7", "A lot of garbage. Pay attention to this issue" );
          System.out.println("");
          System.out.println("Problem message");
          ecologicalProblem.display();
 
-         Answer answer = new Answer("Ecological problem", "Thank you for the referral. We will try to resolve this issue as soon as possible", "Viktoria77");
+         Request r = new Request("Ecological problem");
+         System.out.println("");
+         r.display();
+
+         Problem p = new Problem(1, "Ecological problem");
+         System.out.println(r.getProblem());
+         System.out.println("");
+         p.display();
+
+         Answer answer = new Answer("Thank you for the referral. We will try to resolve this issue as soon as possible",  "Viktoria77");
+         System.out.println(r.getAnswer());
          System.out.println("");
          answer.send();
-
-
 
 
      }

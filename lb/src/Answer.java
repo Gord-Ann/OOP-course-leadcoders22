@@ -1,10 +1,9 @@
-public class Answer extends Request {
+public class Answer {
     private String message;
     private String destination;
 
 
-    public Answer(String topic, String message, String destination) {
-        super(topic);
+    public Answer(String message, String destination) {
         setMessage(message);
         setDestination(destination);
     }
@@ -25,7 +24,6 @@ public class Answer extends Request {
 
 
     public void send() {
-        System.out.println("Topic: " + getTopic());
         System.out.println("Answer: " + this.message);
         System.out.println("To: " + this.destination);
     }
