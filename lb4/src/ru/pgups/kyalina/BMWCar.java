@@ -7,7 +7,7 @@ public class BMWCar extends Car {
         this.country = country;
     }
     public void mileage() {
-        System.out.println("");
+        System.out.println("the mileage of the car is 50,000 km");
     }
 }
 
