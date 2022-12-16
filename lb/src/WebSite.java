@@ -20,13 +20,18 @@
          System.out.println("Problem message");
          ecologicalProblem.display();
 
-         Request r = new Request("Ecological problem");
+         Request r = new Request();
          System.out.println("");
+         System.out.println(r.getTopic());
+         System.out.println(r.getProblem());
+         System.out.println(r.getAnswer());
          r.display();
 
-         Problem p = new Problem(1, "Ecological problem");
-         System.out.println(r.getProblem());
+         Problem p = new Problem();
          System.out.println("");
+         System.out.println(p.getRequestNumber());
+         System.out.println(p.getTypeOfProblem());
+         System.out.println(p.geProblemMessage());
          p.display();
 
          Answer answer = new Answer("Thank you for the referral. We will try to resolve this issue as soon as possible",  "Viktoria77");

@@ -4,7 +4,7 @@ public class Problem {
     private ProblemMessage problemMessage;
 
 
-    public Problem(int requestNumber, String typeOfProblem) {
+    public Problem(int requestNumber, String typeOfProblem, ProblemMessage problemMessage) {
             System.out.println(" ");
             System.out.println("Collecting data about the problem...");
             this.typeOfProblem = typeOfProblem;
@@ -12,7 +12,9 @@ public class Problem {
             this.problemMessage = problemMessage;
         }
 
+public Problem(){
 
+}
     public String getTypeOfProblem() {
         return typeOfProblem;
     }

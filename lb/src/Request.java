@@ -4,14 +4,16 @@
      private Answer answer;
 
 
-     public Request(String topic) {
+     public Request(String topic, Problem problem, Answer answer) {
          this.topic = topic;
          this.problem = problem;
          this.answer = answer;
 
      }
+     public Request() {
+     }
 
-     public String getTopic () {
+         public String getTopic () {
              return topic;
          }
 
@@ -27,6 +29,7 @@
              this.problem = problem;
 
          }
+
          public Answer getAnswer () {
              return answer;
          }
@@ -35,9 +38,7 @@
              this.answer = answer;
          }
 
-     public void display(){
-         System.out.println("");
-
+     public void display() {
+         System.out.println(this.topic + " " + this.problem + " " + this.answer);
      }
-
-     }
+ }

@@ -1,8 +1,8 @@
 public abstract class Person {
 
-    protected String surname;
-    protected String name;
-    protected String email;
+    private String surname;
+    private String name;
+    private String email;
 
     public Person(String surname, String name, String email) {
         System.out.println(" ");

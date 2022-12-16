@@ -4,6 +4,8 @@ public class Answer {
 
 
     public Answer(String message, String destination) {
+        this.message = message;
+        this.destination = destination;
         setMessage(message);
         setDestination(destination);
     }
