@@ -3,10 +3,12 @@ public class NewUser extends Person {
     private int password;
 
 
+
     public NewUser(String surname, String name, String email, String login, int password) {
         super(surname, name, email);
         this.login = login;
         this.password = password;
+
     }
 
 

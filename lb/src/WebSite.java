@@ -16,12 +16,12 @@
          cityAdministration.create();
 
 
-         ProblemMessage ecologicalProblem = new ProblemMessage( "Ecological problem", "3024x4032", "Moskovsky Avenue 7","A lot of garbage. Pay attention to this issue");
+         ProblemMessage ecologicalProblem = new ProblemMessage( 1, "Ecological problem", "3024x4032","Moskovsky Avenue 7","A lot of garbage. Pay attention to this issue" );
          System.out.println("");
          System.out.println("Problem message");
          ecologicalProblem.display();
 
-         Answer answer = new Answer(1, "Ecological problem", "Thank you for the referral. We will try to resolve this issue as soon as possible", "Viktoria77");
+         Answer answer = new Answer("Ecological problem", "Thank you for the referral. We will try to resolve this issue as soon as possible", "Viktoria77");
          System.out.println("");
          answer.send();
 
