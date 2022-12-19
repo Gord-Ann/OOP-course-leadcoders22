@@ -1,4 +1,4 @@
-public abstract class Transport {
+public class Transport {
     private String name;
     private int travelTime;
 

@@ -14,3 +14,4 @@ public class Tour {
         System.out.println("Price: " + price);
     }
 }
+
