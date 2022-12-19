@@ -5,7 +5,7 @@ class Patients extends  Person{
         this.patientId = patientId;
     }
 
-    public int getClientId(){
+    public int getPatientId(){
         return patientId;
     }
 }
