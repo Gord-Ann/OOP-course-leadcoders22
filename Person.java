@@ -12,4 +12,22 @@ public abstract class Person {
         this.birthMonth = birthMonth;
         this.birthYear = birthYear;
     }
+    public String getSurname(){
+        return surname;
+    }
+    public String getName(){
+        return name;
+    }
+
+    public int getBirthDay() {
+        return birthDay;
+    }
+
+    public int getBirthMonth() {
+        return birthMonth;
+    }
+
+    public int getBirthYear() {
+        return birthYear;
+    }
 }
