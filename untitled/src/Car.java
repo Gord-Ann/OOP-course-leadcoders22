@@ -11,6 +11,6 @@ public class Car {
         int carYear = in.nextInt();
         System.out.println("Input Odometer amount: ");
         int odometerAmount = in.nextInt();
-        System.out.printf("Car name: %s,Car model: %s,Car Year: %d,Odometer amount: %d", carName, carModel, carYear, odometerAmount);
+        System.out.printf("Car name: %s,Car model: %s,Car Year: %d,Odometer amount: %d \n", carName, carModel, carYear, odometerAmount);
     }
 }

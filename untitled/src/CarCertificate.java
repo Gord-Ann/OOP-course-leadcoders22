@@ -7,6 +7,6 @@ import java.util.Scanner;
         String vinNumber = in.nextLine();
         System.out.println("Input car plate number: ");
         String carPlateNumber = in.nextLine();
-        System.out.printf("VIN-number: %s, Car Plate: %s", vinNumber, carPlateNumber);
+        System.out.printf("VIN-number: %s, Car Plate: %s \n", vinNumber, carPlateNumber);
     }
 }

@@ -9,7 +9,7 @@ public class Address {
         String streetName = in.nextLine();
         System.out.println("Input House number: ");
         int houseNum = in.nextInt();
-        System.out.printf("City name: %s Street name: %s House Number: %d", cityName, streetName, houseNum);
+        System.out.printf("City name: %s Street name: %s House Number: %d \n", cityName, streetName, houseNum);
     }
 }
 

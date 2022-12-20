@@ -4,12 +4,10 @@ public class SellerDocuments {
 
     private int number;
 
-    private String FIO;
 
-    public SellerDocuments(int serialNumber, int number, String FIO){
+    public SellerDocuments(int serialNumber, int number){
         this.serialNumber = serialNumber;
         this.number = number;
-        this.FIO = FIO;
     }
 
     public int getSerialNumber(){
@@ -19,8 +17,5 @@ public class SellerDocuments {
     public int getNumber(){
         return number;
     }
-
-    public String getFIO(){
-        return FIO;
-    }
 }
+
