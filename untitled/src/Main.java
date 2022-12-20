@@ -7,6 +7,8 @@ public class Main {
         System.out.println("Your information: ");
         Seller seller1 = new Seller();
         seller1.inputSeller();
+        Buyer buyer1 = new Buyer();
+        buyer1.inputBuyer();
 
         System.out.println("Choose what you want to enter: 1 - notice; 2 - address; 3 - car; 4 - car certificate; 5 - car characteristics; 6 - show my documents \n");
         Scanner input = new Scanner(System.in);
@@ -45,9 +47,9 @@ public class Main {
                     break;
 
                 case 6:
-                    SellerDocuments sd1 = new SellerDocuments(4000, 231563);
-                    System.out.print(" Let's check your documents ");
-                    System.out.printf(" Your serial number: %d, Your number: %d \n", sd1.getSerialNumber(), sd1.getNumber());
+                    System.out.println(" Enter your documents: ");
+                    SellerDocuments sd1 = new SellerDocuments();
+                    sd1.inputSellerDocuments();
                     break;
             }
         } while (x<7);
