@@ -35,7 +35,7 @@ public class AddressHospital {
         String cityName = in.nextLine();
         System.out.println("Улица: ");
         String streetName = in.nextLine();
-        System.out.println("Номер дома: ");
+        System.out.println("Номер домa: ");
         int houseNum = in.nextInt();
         System.out.printf("Город: %s Улица: %s Номер дома: %d \n", cityName, streetName, houseNum);
     }
